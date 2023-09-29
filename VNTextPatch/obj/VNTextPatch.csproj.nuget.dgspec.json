@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch\\VNTextPatch.csproj": {}
+  },
+  "projects": {
+    "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote.Psb\\FreeMote.Psb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote.Psb\\FreeMote.Psb.csproj",
+        "projectName": "FreeMote.Psb",
+        "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote.Psb\\FreeMote.Psb.csproj",
+        "packagesPath": "C:\\Users\\PhuHV\\.nuget\\packages\\",
+        "outputPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote.Psb\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PhuHV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote\\FreeMote.csproj": {
+                "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote\\FreeMote.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "FastBitmapLib": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Troschuetz.Random": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote\\FreeMote.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote\\FreeMote.csproj",
+        "projectName": "FreeMote",
+        "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote\\FreeMote.csproj",
+        "packagesPath": "C:\\Users\\PhuHV\\.nuget\\packages\\",
+        "outputPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PhuHV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch.Shared\\VNTextPatch.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch.Shared\\VNTextPatch.Shared.csproj",
+        "projectName": "VNTextPatch.Shared",
+        "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch.Shared\\VNTextPatch.Shared.csproj",
+        "packagesPath": "C:\\Users\\PhuHV\\.nuget\\packages\\",
+        "outputPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PhuHV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote.Psb\\FreeMote.Psb.csproj": {
+                "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\external\\FreeMote\\FreeMote.Psb\\FreeMote.Psb.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.49.0.2168, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch\\VNTextPatch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch\\VNTextPatch.csproj",
+        "projectName": "VNTextPatch",
+        "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch\\VNTextPatch.csproj",
+        "packagesPath": "C:\\Users\\PhuHV\\.nuget\\packages\\",
+        "outputPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PhuHV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch.Shared\\VNTextPatch.Shared.csproj": {
+                "projectPath": "D:\\visual novel\\v3770 [NEW EDITION]\\VNTranslationTools-main\\VNTextPatch.Shared\\VNTextPatch.Shared.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

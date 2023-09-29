@@ -1,0 +1,5387 @@
+astver = 2.0
+astname = "ast"
+ast = {
+    block_00000 = {
+        {"msg", no = 99, mode = "novel"},
+        {"bgm", file = "bgm24"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_03", x = 0, y = -307, speed = 15000, ease = "none", time = 1500, zoom = 100, sync = 1, path = ":bg/", x2 = 0, y2 = 0, set = "bg43", ax = 960, ay = 693, bx = 0},
+        {"text"},
+        text = {
+            ja = {
+                {"山頂に近い場所だった。"}
+            },
+            en = {
+                {"Đó là một nơi khá gần đỉnh núi."}
+            },
+            cn = {
+                {"这里是靠近山顶的一个地方。"}
+            }
+        },
+        linknext = "block_00001",
+        line = 10
+    },
+    block_00001 = {
+        {"text"},
+        text = {
+            ja = {
+                {"見晴らしの良い場所。"}
+            },
+            en = {
+                {"Đem lại tầm nhìn tương đối tốt."}
+            },
+            cn = {
+                {"视野极佳。"}
+            }
+        },
+        linkback = "block_00000",
+        linknext = "block_00002",
+        line = 11
+    },
+    block_00002 = {
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_05", x = 0, y = -270, speed = 3000, ease = "none", time = 1500, zoom = 150, sync = 0, path = ":bg/", x2 = 0, y2 = -170, set = "bg43"},
+        {"text"},
+        text = {
+            ja = {
+                {"爺さんの言った通り、見慣れぬ形の砲台がいくつか設置されていた。"}
+            },
+            en = {
+                {"Đúng như ông lão đã nói, trên đây đặt rất nhiều tháp pháo với hình dạng lạ mắt."}
+            },
+            cn = {
+                {"正如老头所言，有几个造型陌生的炮台在那里安放。"}
+            }
+        },
+        linkback = "block_00001",
+        linknext = "block_00003",
+        line = 15
+    },
+    block_00003 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"あの六脚ロボットが多数、待機している。"}
+            },
+            en = {
+                {"Ngoài ra còn hàng tá những robot sáu chân đang trong trạng thái chờ."}
+            },
+            cn = {
+                {"大批六足机器人正在待命。"}
+            }
+        },
+        linkback = "block_00002",
+        linknext = "block_00004",
+        line = 16
+    },
+    block_00004 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_04", x = 200, y = 100, speed = 8000, ease = "none", time = 1500, zoom = 150, sync = 1, path = ":bg/", x2 = 200, y2 = -100, set = "bg43"},
+        {"text"},
+        text = {
+            ja = {
+                {"だが……何かがおかしい。"}
+            },
+            en = {
+                {"Nhưng...... có gì đó rất lạ."}
+            },
+            cn = {
+                {"但是……有哪里不太对劲。"}
+            }
+        },
+        linkback = "block_00003",
+        linknext = "block_00005",
+        line = 21
+    },
+    block_00005 = {
+        {"text"},
+        text = {
+            ja = {
+                {"違和感がある。"}
+            },
+            en = {
+                {"Một cảm giác khó chịu."}
+            },
+            cn = {
+                {"有种不协调感。"}
+            }
+        },
+        linkback = "block_00004",
+        linknext = "block_00006",
+        line = 22
+    },
+    block_00006 = {
+        {"text"},
+        text = {
+            ja = {
+                {"そう、確かな違和感がある。この場所には。"}
+            },
+            en = {
+                {"Phải, quả thật là tôi không thấy thoải mái với nơi này."}
+            },
+            cn = {
+                {"是的，这个地方确实能感到不协调。"}
+            }
+        },
+        linkback = "block_00005",
+        linknext = "block_00007",
+        line = 23
+    },
+    block_00007 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"さっきから妙に圧迫感を感じる。"}
+            },
+            en = {
+                {"Suốt từ nãy tôi đã ngờ ngợ một áp lực khác thường nào đó rồi."}
+            },
+            cn = {
+                {"刚才就怪异地感到一股压迫感。"}
+            }
+        },
+        linkback = "block_00006",
+        linknext = "block_00008",
+        line = 24
+    },
+    block_00008 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_05", time = 1500, path = ":bg/", set = "bg43"},
+        {"text"},
+        text = {
+            ja = {
+                {"情報収集にも肉眼にも、おかしなものは捉えられない。"}
+            },
+            en = {
+                {"Cả thiết bị thu thập thông tin lẫn mắt thường đều không bắt được điều gì trái khoáy cả."}
+            },
+            cn = {
+                {"无论是靠信息收集还是肉眼，都捕捉不到什么奇怪的东西。"}
+            }
+        },
+        linkback = "block_00007",
+        linknext = "block_00009",
+        line = 28
+    },
+    block_00009 = {
+        {"text"},
+        text = {
+            ja = {
+                {"が、直感では理解している。"}
+            },
+            en = {
+                {"Nhưng, tôi có thể đoán biết từ trực giác."}
+            },
+            cn = {
+                {"然而直觉已经告诉我了。"}
+            }
+        },
+        linkback = "block_00008",
+        linknext = "block_00010",
+        line = 29
+    },
+    block_00010 = {
+        {"text"},
+        text = {
+            ja = {
+                {"ここはおかしい。"}
+            },
+            en = {
+                {"Rằng nơi này rất kỳ lạ."}
+            },
+            cn = {
+                {"这里很奇怪。"}
+            }
+        },
+        linkback = "block_00009",
+        linknext = "block_00011",
+        line = 30
+    },
+    block_00011 = {
+        {"text"},
+        text = {
+            ja = {
+                {"きっと爺さんの仕掛けのひとつだ。"}
+            },
+            en = {
+                {"Chắc hẳn là một mánh của ông lão."}
+            },
+            cn = {
+                {"肯定是老头设下的什么机关。"}
+            }
+        },
+        linkback = "block_00010",
+        linknext = "block_00012",
+        line = 31
+    },
+    block_00012 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"要塞が電磁迷彩で隠蔽されているとか、そういったことだろう。"}
+            },
+            en = {
+                {"Pháo đài này đang được ngụy trang điện từ, hay đại loại thế."}
+            },
+            cn = {
+                {"大概就是电磁迷彩隐藏起了要塞之类的事情。"}
+            }
+        },
+        linkback = "block_00011",
+        linknext = "block_00013",
+        line = 32
+    },
+    block_00013 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_04", x = 200, y = 270, speed = 2500, ease = "none", time = 1000, zoom = 150, sync = 1, path = ":bg/", x2 = 200, y2 = -200, set = "bg43"},
+        {"ex", time = 500, func = "wait"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"se", file = "se054", id = 1},
+        {"bg", id = 2, lv = 5, file = "ef_monitor01_on", movie = 1, style = "ar_add", path = ":ani/", bx = 960, sync = 0},
+        {"bg", id = 1, lv = 5, file = "black", alpha = 255, path = ":bg/", sync = 0},
+        {"extrans", time = 0},
+        {"bg", id = 1, lv = 5, time = 120, file = "ef_ui20_03", rule = "rule120", alpha = 255, path = ":cg2/"},
+        {"ex", video = 1, func = "wait", time = 0},
+        {"bg", id = 2, lv = 5, time = 0, file = "ef_monitor01", movie = 1, style = "ar_add", movieloop = 1, path = ":ani/", bx = 960},
+        {"ex", func = "wait"},
+        {"text"},
+        text = {
+            ja = {
+                {"ロケーターを立ち上げる。"}
+            },
+            en = {
+                {"Tôi khởi động thiết bị định vị."}
+            },
+            cn = {
+                {"启动定位器。"}
+            }
+        },
+        linkback = "block_00012",
+        linknext = "block_00014",
+        line = 40
+    },
+    block_00014 = {
+        {"text"},
+        text = {
+            ja = {
+                {"指定された目的地が示される。"}
+            },
+            en = {
+                {"Trên đó đang hiển thị đích đến đã chỉ định."}
+            },
+            cn = {
+                {"显示出了指定的目标地点。"}
+            }
+        },
+        linkback = "block_00013",
+        linknext = "block_00015",
+        line = 41
+    },
+    block_00015 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"思わず口を開いたまま停止してしまう。"}
+            },
+            en = {
+                {"Bất giác tôi sững người, rồi há hốc miệng."}
+            },
+            cn = {
+                {"我情不自禁地张大了嘴，停住了脚步。"}
+            }
+        },
+        linkback = "block_00014",
+        linknext = "block_00016",
+        line = 42
+    },
+    block_00016 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400021"}
+            },
+            ja = {
+                {"「……そういうことか」"}
+            },
+            en = {
+                {"\"...... Là như vậy sao.\""}
+            },
+            cn = {
+                {"「……原来是这么回事」"}
+            }
+        },
+        linkback = "block_00015",
+        linknext = "block_00017",
+        line = 44
+    },
+    block_00017 = {
+        {"bgm", stop = 1, time = 2000},
+        {"text"},
+        text = {
+            ja = {
+                {"ロケーターの矢印は、山頂から天に向かって伸び上がっていたのだ。"}
+            },
+            en = {
+                {"Mũi tên trong thiết bị định vị đang chỉ từ đỉnh núi lên trên trời."}
+            },
+            cn = {
+                {"定位器的箭头从山顶笔直地伸向天空。"}
+            }
+        },
+        linkback = "block_00016",
+        linknext = "block_00018",
+        line = 48
+    },
+    block_00018 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"何も存在しない空中を。"}
+            },
+            en = {
+                {"Tới nơi không trung chẳng tồn tại thứ gì."}
+            },
+            cn = {
+                {"伸向空无一物的空中。"}
+            }
+        },
+        linkback = "block_00017",
+        linknext = "block_00019",
+        line = 49
+    },
+    block_00019 = {
+        {"msgoff"},
+        {"msgoff"},
+        {"se", file = "se011", id = 1},
+        {"bg", id = 3, lv = 5, time = 200, file = "ef_monitor02_off", movie = 1, style = "ar_add", path = ":ani/", bx = 960},
+        {"ex", time = 500, func = "wait"},
+        {"cgdel", id = -1},
+        {"extrans", time = 450, rule = "rule081"},
+        {"ex", time = 250, func = "wait"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_05", time = 1000, path = ":bg/", set = "bg43"},
+        {"bgm", file = "bgm21"},
+        {"msgon"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400026"}
+            },
+            ja = {
+                {"「……ここでなんとしても食い止める必要がある」"}
+            },
+            en = {
+                {"\"...... Bằng mọi giá phải chặn đứng nó ngay tại đây.\""}
+            },
+            cn = {
+                {"「……无论如何必须把这里守住」"}
+            }
+        },
+        linkback = "block_00018",
+        linknext = "block_00020",
+        line = 62
+    },
+    block_00020 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg43_05", sync = 0, zoom = 150, path = ":bg2/", set = "bg43"},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_02", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", sync = 0, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400027"}
+            },
+            ja = {
+                {"「フィリア、先に行け。その先だ。"}
+            },
+            en = {
+                {"\"Philia, đi trước đi. Ở ngay kia thôi."}
+            },
+            cn = {
+                {"「菲莉娅，你先走。就在前面。"}
+            }
+        },
+        linkback = "block_00019",
+        linknext = "block_00021",
+        line = 67
+    },
+    block_00021 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400028"}
+            },
+            ja = {
+                {"あとは爺さんの指示に従え」"}
+            },
+            en = {
+                {"Sau đấy nhớ làm theo chỉ thị của ông già nghe chưa.\""}
+            },
+            cn = {
+                {"之后听从老头的指示」"}
+            }
+        },
+        linkback = "block_00020",
+        linknext = "block_00022",
+        line = 68
+    },
+    block_00022 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400029"}
+            },
+            ja = {
+                {"「駄目だよ、一緒に来てよ」"}
+            },
+            en = {
+                {"\"Không được, ta phải đi cùng nhau cơ.\""}
+            },
+            cn = {
+                {"「不行，你也要一起来」"}
+            }
+        },
+        linkback = "block_00021",
+        linknext = "block_00023",
+        line = 70
+    },
+    block_00023 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400030"}
+            },
+            ja = {
+                {"「そういうわけにもいかなくなった。先に行け」"}
+            },
+            en = {
+                {"\"Giờ thì không thể nữa rồi. Đi trước đi.\""}
+            },
+            cn = {
+                {"「现在情况已经不允许了，你先走吧」"}
+            }
+        },
+        linkback = "block_00022",
+        linknext = "block_00024",
+        line = 71
+    },
+    block_00024 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400031"}
+            },
+            ja = {
+                {"「なら私も残る」"}
+            },
+            en = {
+                {"\"Vậy con cũng ở lại.\""}
+            },
+            cn = {
+                {"「那我也要留下」"}
+            }
+        },
+        linkback = "block_00023",
+        linknext = "block_00025",
+        line = 73
+    },
+    block_00025 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400032"}
+            },
+            ja = {
+                {"「いいかフィリア、おまえは機械だ。でもな、だからといって言いなりになる必要はない。"}
+            },
+            en = {
+                {"\"Nghe này, Philia. Nhóc là người máy, nhưng kể cả vậy thì nhóc cũng không nhất thiết phải răm rắp nghe lời người khác."}
+            },
+            cn = {
+                {"「听好了菲莉娅，你是机器没错。但是，即使如此也不必对他人言听计从。"}
+            }
+        },
+        linkback = "block_00024",
+        linknext = "block_00026",
+        line = 74
+    },
+    block_00026 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400033"}
+            },
+            ja = {
+                {"納得できないことは徹底的に交渉しろ。自分の要求を通すんだ。"}
+            },
+            en = {
+                {"Nhóc không đồng ý với cái gì thì cứ đàm phán ráo riết vào. Cứ đưa ra hết chính kiến của mình đi."}
+            },
+            cn = {
+                {"对于自己不能接受的事情，要坚决地谈判，让对方接受自己的要求。"}
+            }
+        },
+        linkback = "block_00025",
+        linknext = "block_00027",
+        line = 75
+    },
+    block_00027 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400034"}
+            },
+            ja = {
+                {"全ては望み通りにはならない。でも、腐らずあきらめず、少しでも自分の取り分を増やせ。"}
+            },
+            en = {
+                {"Dù biết mọi chuyện không thể luôn luôn theo ý nhóc được, nhưng cũng đừng vì thế mà chán nản rồi bỏ cuộc. Cứ cố mà nâng quan điểm của mình lên được bao nhiêu hay bấy nhiêu."}
+            },
+            cn = {
+                {"不可能完全地如愿以偿。但是不要气馁，不要放弃，尽量多争取哪怕一点自己的份额。"}
+            }
+        },
+        linkback = "block_00026",
+        linknext = "block_00028",
+        line = 76
+    },
+    block_00028 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400035"}
+            },
+            ja = {
+                {"それがいい人間だ」"}
+            },
+            en = {
+                {"Thế mới là một con người đường hoàng.\""}
+            },
+            cn = {
+                {"这才是优秀的人类」"}
+            }
+        },
+        linkback = "block_00027",
+        linknext = "block_00029",
+        line = 77
+    },
+    block_00029 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400036"}
+            },
+            ja = {
+                {"「……やめて。今そんなこと言わないで」"}
+            },
+            en = {
+                {"\"...... Dừng lại đi. Đã lúc nào rồi mà chú còn nói thế nữa.\""}
+            },
+            cn = {
+                {"「……我不想听，现在不要说这些话」"}
+            }
+        },
+        linkback = "block_00028",
+        linknext = "block_00030",
+        line = 79
+    },
+    block_00030 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400037"}
+            },
+            ja = {
+                {"「必要なら銃も使えよ。デリラを思い出せ」"}
+            },
+            en = {
+                {"\"Súng ống trong tay nếu buộc phải dùng thì cứ dùng. Nhớ lại Delilah xem.\""}
+            },
+            cn = {
+                {"「如果需要也可以用枪。把黛莉拉回忆起来」"}
+            }
+        },
+        linkback = "block_00029",
+        linknext = "block_00031",
+        line = 80
+    },
+    block_00031 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_17", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400038"}
+            },
+            ja = {
+                {"「ジュードっ！」"}
+            },
+            en = {
+                {"\"Jude!!\""}
+            },
+            cn = {
+                {"「裘德！」"}
+            }
+        },
+        linkback = "block_00030",
+        linknext = "block_00032",
+        line = 82
+    },
+    block_00032 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400039"}
+            },
+            ja = {
+                {"「……行くんだ。大丈夫だ、俺もあとから合流する」"}
+            },
+            en = {
+                {"\"...... Đi đi. Không sao đâu. Lát tôi sẽ gặp lại nhóc sau.\""}
+            },
+            cn = {
+                {"「……去吧。没事的，我等下就去找你汇合」"}
+            }
+        },
+        linkback = "block_00031",
+        linknext = "block_00033",
+        line = 83
+    },
+    block_00033 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400040"}
+            },
+            ja = {
+                {"「どうして一緒に行けないの？」"}
+            },
+            en = {
+                {"\"Sao chú lại không đi cùng con cơ chứ?\""}
+            },
+            cn = {
+                {"「为什么不能一起走？」"}
+            }
+        },
+        linkback = "block_00032",
+        linknext = "block_00034",
+        line = 85
+    },
+    block_00034 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400041"}
+            },
+            ja = {
+                {"「ここが破壊されると老人のもとに行けなくなる。死守する必要がある。"}
+            },
+            en = {
+                {"\"Nếu nơi này bị phá hủy thì nhóc sẽ không tới được chỗ ông già. Phải có người tử thủ ở đây."}
+            },
+            cn = {
+                {"「如果这里被摧毁，我们就无法去到老头那里了。我必须死守住这里。"}
+            }
+        },
+        linkback = "block_00033",
+        linknext = "block_00035",
+        line = 86
+    },
+    block_00035 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400042"}
+            },
+            ja = {
+                {"一緒にこいつに乗ったら、自分を守ることもできなくなるんだ」"}
+            },
+            en = {
+                {"Kêu tôi lên cùng nhóc thì lấy ai bảo vệ hai chúng ta đây.\""}
+            },
+            cn = {
+                {"要是我们一起上去，就没有保护自己的办法了。”」"}
+            }
+        },
+        linkback = "block_00034",
+        linknext = "block_00036",
+        line = 87
+    },
+    block_00036 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_17", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400043"}
+            },
+            ja = {
+                {"「だって！」"}
+            },
+            en = {
+                {"\"Vậy thì―!\""}
+            },
+            cn = {
+                {"「可是！」"}
+            }
+        },
+        linkback = "block_00035",
+        linknext = "block_00037",
+        line = 89
+    },
+    block_00037 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400044"}
+            },
+            ja = {
+                {"「必要なことだ。自己犠牲で言ってるんじゃない。これがもっとも生き残る確率が高いんだ。"}
+            },
+            en = {
+                {"\"Chuyện tất yếu thôi. Tôi không định mang thân mình ra để thí mạng đâu. Chẳng qua làm vậy thì tỉ lệ sống sót sẽ tăng cao nhất có thể."}
+            },
+            cn = {
+                {"「这是我必须做的。我的意思并不是要牺牲自己，而是这样做我们生存下来的概率最高。"}
+            }
+        },
+        linkback = "block_00036",
+        linknext = "block_00038",
+        line = 90
+    },
+    block_00038 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400045"}
+            },
+            ja = {
+                {"俺の判断を信じてくれ」"}
+            },
+            en = {
+                {"Cứ tin vào nhận định của tôi đi.\""}
+            },
+            cn = {
+                {"相信我的判断吧」"}
+            }
+        },
+        linkback = "block_00037",
+        linknext = "block_00039",
+        line = 91
+    },
+    block_00039 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_14", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400046"}
+            },
+            ja = {
+                {"「絶対に合流する？」"}
+            },
+            en = {
+                {"\"Chắc chắn chú sẽ tới gặp con chứ?\""}
+            },
+            cn = {
+                {"「绝对会来找我汇合？」"}
+            }
+        },
+        linkback = "block_00038",
+        linknext = "block_00040",
+        line = 93
+    },
+    block_00040 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400047"}
+            },
+            ja = {
+                {"「そのつもりだ。見届けると言ったろ？」"}
+            },
+            en = {
+                {"\"Rõ ràng rồi còn gì. Đã bảo là tôi muốn được chứng kiến vĩ nghiệp mà.\""}
+            },
+            cn = {
+                {"「那是当然。我说过要亲眼见证的，对吧？」"}
+            }
+        },
+        linkback = "block_00039",
+        linknext = "block_00041",
+        line = 94
+    },
+    block_00041 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400048"}
+            },
+            ja = {
+                {"「……わかった」"}
+            },
+            en = {
+                {"\"...... Con biết rồi.\""}
+            },
+            cn = {
+                {"「……我明白了」"}
+            }
+        },
+        linkback = "block_00040",
+        linknext = "block_00042",
+        line = 96
+    },
+    block_00042 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"背を向けてよたよたと歩いていく。"}
+            },
+            en = {
+                {"Con bé quay lưng về phía tôi rồi thả bước."}
+            },
+            cn = {
+                {"她转过身去，蹒蹒跚珊地走了。"}
+            }
+        },
+        linkback = "block_00041",
+        linknext = "block_00043",
+        line = 98
+    },
+    block_00043 = {
+        {"bgm", stop = 1, time = 5000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_05", time = 1000, path = ":bg/", set = "bg43"},
+        {"text"},
+        text = {
+            ja = {
+                {"あるところまで進むと、その姿がかき消えた。"}
+            },
+            en = {
+                {"Vừa tiến đến một điểm nào đó, con bé liền biến mất."}
+            },
+            cn = {
+                {"走到一个位置后，她的身影便消失不见了。"}
+            }
+        },
+        linkback = "block_00042",
+        linknext = "block_00044",
+        line = 107
+    },
+    block_00044 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"隠蔽された領域に入ったのだ。"}
+            },
+            en = {
+                {"Hẳn nó đã vào tới khu vực đang ẩn mình rồi."}
+            },
+            cn = {
+                {"她走进了被隐藏起来的区域。"}
+            }
+        },
+        linkback = "block_00043",
+        linknext = "block_00045",
+        line = 108
+    },
+    block_00045 = {
+        {"text"},
+        text = {
+            ja = {
+                {"……これでいい。"}
+            },
+            en = {
+                {"...... Thế này là xong."}
+            },
+            cn = {
+                {"……这样就好。"}
+            }
+        },
+        linkback = "block_00044",
+        linknext = "block_00046",
+        line = 109
+    },
+    block_00046 = {
+        {"text"},
+        text = {
+            ja = {
+                {"三基のシンギュラリティマシンを相手に、生き残る方法はわからない。"}
+            },
+            en = {
+                {"Tôi nào biết cách sinh tồn trước đối thủ là ba Singularity Machine."}
+            },
+            cn = {
+                {"我也不知道面对三台奇点机器，到底如何才能生存下去。"}
+            }
+        },
+        linkback = "block_00045",
+        linknext = "block_00047",
+        line = 110
+    },
+    block_00047 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"だが生き残るつもりでやる。約束できるのはそこまでだ。"}
+            },
+            en = {
+                {"Nhưng tôi sẽ tìm đường sống sót. Bét nhất vì lời đã hứa."}
+            },
+            cn = {
+                {"但我会以生存下去为前提去战斗。最多只能承诺到这一步了。"}
+            }
+        },
+        linkback = "block_00046",
+        linknext = "block_00048",
+        line = 111
+    },
+    block_00048 = {
+        {"bgm", file = "bgm26"},
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg43_05", x = 200, y = -500, speed = 2000, time = 1000, zoom = 150, sync = 0, path = ":bg/", x2 = 0, y2 = -500, set = "bg43"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {"電磁投射砲に近寄る。"}
+            },
+            en = {
+                {"Tôi lại gần khẩu pháo phóng điện từ."}
+            },
+            cn = {
+                {"靠近电磁投射炮。"}
+            }
+        },
+        linkback = "block_00047",
+        linknext = "block_00049",
+        line = 120
+    },
+    block_00049 = {
+        {"text"},
+        text = {
+            ja = {
+                {"大電力で弾を射出する、電気式大砲。"}
+            },
+            en = {
+                {"Loại pháo điện có thể bắn đạn mang lượng điện năng lớn."}
+            },
+            cn = {
+                {"这是一门利用巨额电力发射炮弹的电力式大炮。"}
+            }
+        },
+        linkback = "block_00048",
+        linknext = "block_00050",
+        line = 121
+    },
+    block_00050 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"こいつの火力なら、シンギュラリティマシンにも通じる。"}
+            },
+            en = {
+                {"Hỏa lực từ thứ này biết đâu sẽ chặn được Singularity Machine."}
+            },
+            cn = {
+                {"它的火力足以有效对付奇点机器。"}
+            }
+        },
+        linkback = "block_00049",
+        linknext = "block_00051",
+        line = 122
+    },
+    block_00051 = {
+        {"cgdel", id = 1, lv = 1},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts28_01", x = 0, y = 0, speed = 1000, ease = "none", time = 1000, zoom = 125, sync = 1, path = ":ev/", x2 = 0, y2 = -100, set = "ts28"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"se", file = "se150", id = 1},
+        {"bg", id = 2, lv = 5, file = "ef_monitor01_on", movie = 1, style = "ar_add", path = ":ani/", bx = 960, sync = 0},
+        {"bg", id = 1, lv = 5, file = "black", alpha = 255, path = ":bg/", sync = 0},
+        {"extrans", time = 0},
+        {"bg", id = 1, lv = 5, time = 120, file = "ef_reticle_01", rule = "rule120", alpha = 255, path = ":cg2/"},
+        {"ex", video = 1, func = "wait", time = 0},
+        {"bg", id = 2, lv = 5, time = 0, file = "ef_monitor01", movie = 1, style = "ar_add", movieloop = 1, path = ":ani/", bx = 960},
+        {"ex", time = 500, func = "wait"},
+        {"text"},
+        text = {
+            ja = {
+                {"システムと端末をリンクさせる。"}
+            },
+            en = {
+                {"Tôi kết nối hệ thống pháo với thiết bị đầu cuối đa nhiệm."}
+            },
+            cn = {
+                {"我将系统和终端连接在一起。"}
+            }
+        },
+        linkback = "block_00050",
+        linknext = "block_00052",
+        line = 132
+    },
+    block_00052 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"運用プログラムが転送される。シンプルなインターフェースだ。迷うところはない。"}
+            },
+            en = {
+                {"Chương trình điều khiển đã được truyền sang bên tôi. Giao diện quá đơn giản, không lo bị rối."}
+            },
+            cn = {
+                {"操作程序传输了过来，界面很简单，没有看不懂的点。"}
+            }
+        },
+        linkback = "block_00051",
+        linknext = "block_00053",
+        line = 133
+    },
+    block_00053 = {
+        {"cgdel", id = 1, lv = 5},
+        {"cgdel", id = 2, lv = 5},
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg81", x = -200, y = 0, speed = 1000, time = 1000, zoom = 200, sync = 0, path = ":bg2/", x2 = 0, y2 = 0, set = "bg81"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"extrans", time = 1000},
+        {"se", id = 0, file = "se153"},
+        {"bg", id = 2, lv = 5, file = "ef_machine11_01", sync = 0, path = ":cg2/", ax = 960, ay = 640, bx = 0},
+        {"extrans", time = 500},
+        {"bg", id = 2, lv = 5, file = "ef_machine11_02", sync = 0, path = ":cg2/", ax = 960, ay = 640, bx = 0},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {"伏せていた六脚ロボット群が、次々に立ちあがる。"}
+            },
+            en = {
+                {"Những con robot sáu chân bố trí xung quanh lần lượt đứng dậy."}
+            },
+            cn = {
+                {"蛰伏的六足机器人们纷纷站立。"}
+            }
+        },
+        linkback = "block_00052",
+        linknext = "block_00054",
+        line = 149
+    },
+    block_00054 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"……来た。"}
+            },
+            en = {
+                {"...... Tới rồi."}
+            },
+            cn = {
+                {"……它们来了。"}
+            }
+        },
+        linkback = "block_00053",
+        linknext = "block_00055",
+        line = 150
+    },
+    block_00055 = {
+        {"cgdel", id = 1, lv = 1},
+        {"se", stop = 1, id = 0, time = 1000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg60_01", x = 0, y = 0, speed = 1000, time = 1000, zoom = 150, sync = 1, path = ":bg/", x2 = 0, y2 = -200, set = "bg60"},
+        {"text"},
+        text = {
+            ja = {
+                {"シンギュラリティマシンの吐き出した小型機群が接近していた。"}
+            },
+            en = {
+                {"Một toán máy cỡ nhỏ chui ra từ con Singularity Machine đang tiếp cận chúng tôi."}
+            },
+            cn = {
+                {"由奇点机器释放出的小型机器群正在接近。"}
+            }
+        },
+        linkback = "block_00054",
+        linknext = "block_00056",
+        line = 162
+    },
+    block_00056 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"小型だが短時間で統計的アップデートを重ねた、危険な存在だ。"}
+            },
+            en = {
+                {"Gọi là cỡ nhỏ chứ chúng rất nguy hiểm, do có khả năng liên tục cập nhật thống kê trong thời gian ngắn."}
+            },
+            cn = {
+                {"虽然体型小，但在短时间内在统计上不断地进行过更新，是非常危险的存在。"}
+            }
+        },
+        linkback = "block_00055",
+        linknext = "block_00057",
+        line = 163
+    },
+    block_00057 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se233", time = 500},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts27", x = 100, y = 200, speed = 2000, time = 500, rule = "sig_240", zoom = 150, sync = 1, path = ":ev/", x2 = -400, y2 = -100, set = "ts27"},
+        {"ex", time = 1000, func = "wait"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts27", speed = 1000, time = 500, rule = "sig_250", zoom = 100, lv = 5, z2 = 150, sync = 1, path = ":ev/", id = 1, set = "ts27"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"text"},
+        text = {
+            ja = {
+                {"六脚ロボットが迎撃に動く。"}
+            },
+            en = {
+                {"Những con robot sáu chân bắt đầu di chuyển để nghênh chiến."}
+            },
+            cn = {
+                {"六足机器人前去拦截。"}
+            }
+        },
+        linkback = "block_00056",
+        linknext = "block_00058",
+        line = 190
+    },
+    block_00058 = {
+        {"text"},
+        text = {
+            ja = {
+                {"相手はその場で瞬間的に製造されたもので、飛び道具は備えていない。"}
+            },
+            en = {
+                {"Đối phương được tạo ra tức thì tại chỗ, nên không hề trang bị vũ khí phóng."}
+            },
+            cn = {
+                {"敌人是当场瞬间制造出来的，所以没有携带远距离武器。"}
+            }
+        },
+        linkback = "block_00057",
+        linknext = "block_00059",
+        line = 191
+    },
+    block_00059 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"しばらくはこちらが有利か。"}
+            },
+            en = {
+                {"Có lẽ tạm thời binh lực từng này là đủ để đối phó với chúng."}
+            },
+            cn = {
+                {"暂时这边占据优势。"}
+            }
+        },
+        linkback = "block_00058",
+        linknext = "block_00060",
+        line = 192
+    },
+    block_00060 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se163"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_01", x = 0, y = 0, speed = 7000, ease = "none", time = 1000, zoom = 150, sync = 0, path = ":ev/", x2 = 0, y2 = -200, set = "ts28"},
+        {"bg", id = 10, lv = 5, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"text"},
+        text = {
+            ja = {
+                {"各砲塔も射撃を開始。"}
+            },
+            en = {
+                {"Từng khẩu pháo bắt đầu khai hỏa."}
+            },
+            cn = {
+                {"各个炮塔也开始射击。"}
+            }
+        },
+        linkback = "block_00059",
+        linknext = "block_00061",
+        line = 204
+    },
+    block_00061 = {
+        {"text"},
+        text = {
+            ja = {
+                {"大気が激しく震える。"}
+            },
+            en = {
+                {"Bầu không khí xung quanh rung chuyển dữ dội."}
+            },
+            cn = {
+                {"大气剧烈地震动。"}
+            }
+        },
+        linkback = "block_00060",
+        linknext = "block_00062",
+        line = 205
+    },
+    block_00062 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"着弾地点は密林地帯。"}
+            },
+            en = {
+                {"Điểm đạn rơi là khu vực rừng rậm."}
+            },
+            cn = {
+                {"着弹点位于丛林地区。"}
+            }
+        },
+        linkback = "block_00061",
+        linknext = "block_00063",
+        line = 206
+    },
+    block_00063 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se164"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_01", x = -400, y = 540, speed = 1000, time = 1000, zoom = 200, sync = 0, path = ":ev/", x2 = -400, y2 = 340, set = "ts28"},
+        {"bg", id = 10, lv = 5, file = "ef_dust01_short", movie = 1, sync = 0, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts28_02", x = -400, y = 540, speed = 1000, time = 500, rule = "sig_240", zoom = 200, sync = 1, path = ":ev/", x2 = -400, y2 = 540, set = "ts28"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 500, rule = "sig_250", path = ":bg/"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"撃ち出された弾が、地表近くの空中で砕け散った。"}
+            },
+            en = {
+                {"Những viên đạn bắn ra vỡ vụn trên khoảng không gần mặt đất."}
+            },
+            cn = {
+                {"射出的炮弹破碎在了接近地表的空中。"}
+            }
+        },
+        linkback = "block_00062",
+        linknext = "block_00064",
+        line = 222
+    },
+    block_00064 = {
+        {"se", id = 1, file = "se003"},
+        {"msgoff"},
+        {"se", id = 0, file = "se164"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_02", x = -100, y = 0, speed = 8000, ease = "none", time = 1000, zoom = 125, sync = 0, path = ":ev/", x2 = 100, y2 = 0, set = "ts28"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"bg", file = "cg_ts28_05", time = 1000, hold = 1, path = ":ev/", set = "ts28"},
+        {"text"},
+        text = {
+            ja = {
+                {"隠蔽がかき乱され、クリムゾンアイが姿を現す。"}
+            },
+            en = {
+                {"Với lớp ngụy trang bị nhiễu loạn, Crimson Eye dần xuất đầu lộ diện."}
+            },
+            cn = {
+                {"隐身被扰乱，赤红之眼显露出它的身姿。"}
+            }
+        },
+        linkback = "block_00063",
+        linknext = "block_00065",
+        line = 235
+    },
+    block_00065 = {
+        {"text"},
+        text = {
+            ja = {
+                {"もうこれほど近くに接近されていた。"}
+            },
+            en = {
+                {"Nó đã áp sát đến mức này rồi."}
+            },
+            cn = {
+                {"竟然已经来到这么近了。"}
+            }
+        },
+        linkback = "block_00064",
+        linknext = "block_00066",
+        line = 236
+    },
+    block_00066 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"途中の迎撃網は突破されてしまったか。"}
+            },
+            en = {
+                {"Chẳng lẽ mạng lưới đánh chặn trên đường đã bị xuyên thủng rồi sao?"}
+            },
+            cn = {
+                {"中途的防线被突破了吗？"}
+            }
+        },
+        linkback = "block_00065",
+        linknext = "block_00067",
+        line = 237
+    },
+    block_00067 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se164"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_07", x = -100, y = 300, speed = 8000, ease = "none", time = 1000, zoom = 200, sync = 0, path = ":ev/", x2 = 100, y2 = 300, set = "ts28"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"text"},
+        text = {
+            ja = {
+                {"だが……相手も無傷ではない。"}
+            },
+            en = {
+                {"Nhưng mà...... cũng không phải đối phương không hề hấn gì."}
+            },
+            cn = {
+                {"不过……敌人也并非完好无损。"}
+            }
+        },
+        linkback = "block_00066",
+        linknext = "block_00068",
+        line = 247
+    },
+    block_00068 = {
+        {"text"},
+        text = {
+            ja = {
+                {"クリムゾンアイには細かい損傷がいくつも確認できる。"}
+            },
+            en = {
+                {"Trên người Crimson Eye là chi chít vết tích hư tổn li ti."}
+            },
+            cn = {
+                {"我可以看到赤红之眼上有很多细微的损伤。"}
+            }
+        },
+        linkback = "block_00067",
+        linknext = "block_00069",
+        line = 248
+    },
+    block_00069 = {
+        {"text"},
+        text = {
+            ja = {
+                {"自動修復より、与えるダメージの方が勝っているのだ。"}
+            },
+            en = {
+                {"Thiệt hại nó hứng chịu đã vượt quá khả năng tự động sửa chữa."}
+            },
+            cn = {
+                {"造成的伤害更胜自动修复一筹。"}
+            }
+        },
+        linkback = "block_00068",
+        linknext = "block_00070",
+        line = 249
+    },
+    block_00070 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"攻撃を続ければ倒せると信じて、やるしかない。"}
+            },
+            en = {
+                {"Tôi chỉ còn cách tin tưởng rằng, nếu cứ tiếp tục tấn công thì phe ta sẽ thắng."}
+            },
+            cn = {
+                {"坚信持续攻击就能将其击败，硬着头皮战斗。"}
+            }
+        },
+        linkback = "block_00069",
+        linknext = "block_00071",
+        line = 250
+    },
+    block_00071 = {
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_07", time = 1000, path = ":ev/", set = "ts28", sync = 0},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"se", id = 0, file = "se163"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts28_08", time = 500, rule = "sig_250", path = ":ev/", set = "ts28"},
+        {"ex", time = 1000, func = "wait"},
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"se", stop = 1, id = 0, time = 3000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, wait = 2000, path = ":bg/"},
+        {"se", id = 0, file = "se163"},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts29", speed = 30000, time = 1000, zoom = 100, lv = 5, z2 = 150, sync = 1, ease = "none", path = ":ev/", id = 1, set = "ts29"},
+        {"se", id = 1, file = "se164", time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {"……砲撃戦が続いている。"}
+            },
+            en = {
+                {"...... Cuộc pháo kích cứ thế kéo dài."}
+            },
+            cn = {
+                {"……炮战仍继续进行着。"}
+            }
+        },
+        linkback = "block_00070",
+        linknext = "block_00072",
+        line = 270
+    },
+    block_00072 = {
+        {"text"},
+        text = {
+            ja = {
+                {"無尽蔵に繰り出される小型機は、高性能化の一途をたどっていた。"}
+            },
+            en = {
+                {"Đám máy cỡ nhỏ sản sinh vô tận kia đang hoạt động với hiệu năng cao dần đều."}
+            },
+            cn = {
+                {"源源不断释放出来的小型机器，飞快地提高着性能。"}
+            }
+        },
+        linkback = "block_00071",
+        linknext = "block_00073",
+        line = 271
+    },
+    block_00073 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"すべての小型機が、遮蔽物に身を隠すことを学習した。"}
+            },
+            en = {
+                {"Tất cả chúng đều đã học được cách náu mình sau vật chắn."}
+            },
+            cn = {
+                {"所有小型机器都习得了藏身于掩体后的技巧。"}
+            }
+        },
+        linkback = "block_00072",
+        linknext = "block_00074",
+        line = 272
+    },
+    block_00074 = {
+        {"text"},
+        text = {
+            ja = {
+                {"無人機は、一個体の状況がすぐ他の個体に共有される。"}
+            },
+            en = {
+                {"Tình hình của một con UAV bất kỳ trong phút chốc đã được chia sẻ với những con còn lại."}
+            },
+            cn = {
+                {"一个无人机的情况很快就能被其他无人机共享。"}
+            }
+        },
+        linkback = "block_00073",
+        linknext = "block_00075",
+        line = 273
+    },
+    block_00075 = {
+        {"text"},
+        text = {
+            ja = {
+                {"同じことを六脚ロボットもしているが、数の多い方が情報面で有利だ。"}
+            },
+            en = {
+                {"Đám robot sáu chân cũng làm điều tương tự, nhưng bên đông quân hơn lại có lợi thế về thông tin hơn hẳn."}
+            },
+            cn = {
+                {"六足机器人也在做同样的事情，但数量更多的一方在信息获取上更为有利。"}
+            }
+        },
+        linkback = "block_00074",
+        linknext = "block_00076",
+        line = 274
+    },
+    block_00076 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"個々の性能では六脚型が勝つが、その優位性が情報戦でひっくり返されている。"}
+            },
+            en = {
+                {"Robot sáu chân thắng về hiệu năng hoạt động của từng cá thể, nhưng ưu thế đó bị lật đổ trên mặt trận tác chiến thông tin."}
+            },
+            cn = {
+                {"单个机体的性能上六足型占优，但这种优势在信息战中被扭转了过去。"}
+            }
+        },
+        linkback = "block_00075",
+        linknext = "block_00077",
+        line = 275
+    },
+    block_00077 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "b_bg81", zoom = 200, x = 0, y = -400, sync = 0, path = ":bg2/", set = "bg81"},
+        {"se", file = "se056", id = 1},
+        {"bg", id = 3, lv = 5, file = "ef_machine10", time = 1000, path = ":fgf/", ax = 960, ay = 640, bx = 0, sync = 0},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {"足下に破壊された無人機が転がっていた。"}
+            },
+            en = {
+                {"Một con UAV bị phá hủy lăn nhào qua chân tôi."}
+            },
+            cn = {
+                {"被摧毁的无人机躺倒在我的脚下。"}
+            }
+        },
+        linkback = "block_00076",
+        linknext = "block_00078",
+        line = 283
+    },
+    block_00078 = {
+        {"text"},
+        text = {
+            ja = {
+                {"その情報収集機器がまだ生きていると、端末は解析した。"}
+            },
+            en = {
+                {"Thiết bị đầu cuối đa nhiệm phân tích cho thấy bộ phận thu thập thông tin trong nó vẫn còn chạy."}
+            },
+            cn = {
+                {"终端分析得出，其信息收集设备仍在运行着。"}
+            }
+        },
+        linkback = "block_00077",
+        linknext = "block_00079",
+        line = 284
+    },
+    block_00079 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"壊れたようでいて、まだ仲間に情報を送信し続けている。"}
+            },
+            en = {
+                {"Trông thì hệt như đã hư hỏng, nhưng kỳ thực nó vẫn đang tiếp tục gửi dữ liệu cho đồng bọn."}
+            },
+            cn = {
+                {"看似已经损坏，但依然在不断向同伴发送着信息。"}
+            }
+        },
+        linkback = "block_00078",
+        linknext = "block_00080",
+        line = 285
+    },
+    block_00080 = {
+        {"msgoff"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine10", y = 100, path = ":fgf/", ax = 960, ay = 640, bx = 0, sync = 0},
+        {"extrans", time = 100},
+        {"bg", id = 3, lv = 5, file = "ef_machine10_tr", y = 100, time = 100, path = ":fgf/", ax = 960, ay = 640, bx = 0},
+        {"se", file = "se057", id = 1},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"ex", time = 0, func = "wait"},
+        {"bg", id = 3, lv = 5, file = "ef_machine10", time = 300, y = 100, sync = 1, path = ":fgf/", ax = 960, ay = 640, bx = 0},
+        {"cgdel", id = 3, lv = 5, time = 300, sync = 1},
+        {"text"},
+        text = {
+            ja = {
+                {"踏み潰す。脆い。"}
+            },
+            en = {
+                {"Tôi giẫm nát nó. Quá dễ vỡ."}
+            },
+            cn = {
+                {"我一脚踩碎。很脆弱。"}
+            }
+        },
+        linkback = "block_00079",
+        linknext = "block_00081",
+        line = 291
+    },
+    block_00081 = {
+        {"text"},
+        text = {
+            ja = {
+                {"シンギュラリティマシンの無人機は、極端な低コストで製産されていた。"}
+            },
+            en = {
+                {"Đám UAV được Singularity Machine tạo ra với đầu vào rẻ mạt."}
+            },
+            cn = {
+                {"奇点机器的无人机是以极低成本制造出来的。"}
+            }
+        },
+        linkback = "block_00080",
+        linknext = "block_00082",
+        line = 292
+    },
+    block_00082 = {
+        {"text"},
+        text = {
+            ja = {
+                {"初期型よりはるかにスカスカだ。"}
+            },
+            en = {
+                {"Chúng còn sơ sài hơn cả mẫu nguyên thủy."}
+            },
+            cn = {
+                {"结构上比初始型号更加空洞。"}
+            }
+        },
+        linkback = "block_00081",
+        linknext = "block_00083",
+        line = 293
+    },
+    block_00083 = {
+        {"text"},
+        text = {
+            ja = {
+                {"ありきたりの材料と、最低限の体構造。"}
+            },
+            en = {
+                {"Vật liệu thì tầm thường, kết cấu lại được thiết kế ở mức tối thiểu."}
+            },
+            cn = {
+                {"使用随处可见的材料和最基本的机体结构。"}
+            }
+        },
+        linkback = "block_00082",
+        linknext = "block_00084",
+        line = 294
+    },
+    block_00084 = {
+        {"text"},
+        text = {
+            ja = {
+                {"ライフル弾で破壊可能。"}
+            },
+            en = {
+                {"Một viên đạn súng trường thôi cũng đủ để phá nát rồi."}
+            },
+            cn = {
+                {"用步枪子弹便可摧毁。"}
+            }
+        },
+        linkback = "block_00083",
+        linknext = "block_00085",
+        line = 295
+    },
+    block_00085 = {
+        {"text"},
+        text = {
+            ja = {
+                {"なんなら素手でもいける。"}
+            },
+            en = {
+                {"Mà có khi tay không cũng đập vỡ được ấy."}
+            },
+            cn = {
+                {"甚至徒手也能行得通。"}
+            }
+        },
+        linkback = "block_00084",
+        linknext = "block_00086",
+        line = 296
+    },
+    block_00086 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"統計的にはその方が強いとシンギュラリティマシンは判断した。"}
+            },
+            en = {
+                {"Singularity Machine đã đánh giá dựa trên thống kê rằng làm thế sẽ ưu việt hơn."}
+            },
+            cn = {
+                {"奇点机器认为统计学角度上来看这样更加强大。"}
+            }
+        },
+        linkback = "block_00085",
+        linknext = "block_00087",
+        line = 297
+    },
+    block_00087 = {
+        {"cgdel", id = 1, lv = 1},
+        {"msgoff"},
+        {"se", id = 0, file = "se163"},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts29", speed = 3000, time = 1000, zoom = 100, lv = 5, z2 = 105, sync = 1, ease = "none", path = ":ev/", id = 1, set = "ts29"},
+        {"text"},
+        text = {
+            ja = {
+                {"六脚ロボットの数はかなり減っていた。"}
+            },
+            en = {
+                {"Số lượng robot sáu chân giờ đã giảm sút đáng kể."}
+            },
+            cn = {
+                {"六足机器人的数量大幅减少。"}
+            }
+        },
+        linkback = "block_00086",
+        linknext = "block_00088",
+        line = 304
+    },
+    block_00088 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"砲塔も相手の反撃により、７割が潰されていた。"}
+            },
+            en = {
+                {"Lượng tháp pháo cũng đã bị địch phản công rồi phá hỏng hết bảy phần."}
+            },
+            cn = {
+                {"炮塔也因敌人的反击，有近七成被摧毁。"}
+            }
+        },
+        linkback = "block_00087",
+        linknext = "block_00089",
+        line = 305
+    },
+    block_00089 = {
+        {"text"},
+        text = {
+            ja = {
+                {"しかし……。"}
+            },
+            en = {
+                {"Thế nhưng......"}
+            },
+            cn = {
+                {"然而……"}
+            }
+        },
+        linkback = "block_00088",
+        linknext = "block_00090",
+        line = 307
+    },
+    block_00090 = {
+        {"se", id = 0, file = "se164"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_07", x = -100, y = 300, speed = 8000, ease = "none", time = 1000, zoom = 200, sync = 0, path = ":ev/", x2 = 100, y2 = 300, set = "ts28"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"クリムゾンアイも満身創痍だった。"}
+            },
+            en = {
+                {"Crimson Eye cũng dính thương tích toàn thân."}
+            },
+            cn = {
+                {"赤红之眼也已是伤痕累累。"}
+            }
+        },
+        linkback = "block_00089",
+        linknext = "block_00091",
+        line = 315
+    },
+    block_00091 = {
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", zoom = 200, y = 0, speed = 1000, ease = "in", sync = 0, path = ":bg2/", y2 = -50, set = "ts28"},
+        {"bg", id = 1, lv = 5, file = "ef_machine22", y = 0, speed = 1000, ease = "in", sync = 0, path = ":fgf/", y2 = -0, ax = 960, ay = 640, bx = 0},
+        {"bg", id = 2, lv = 5, file = "ef_attack02", sync = 0, movie = 1, style = "ar_add", path = ":ani/", bx = 960},
+        {"se", file = "se051", id = 1},
+        {"extrans", time = 500},
+        {"ex", time = 950, func = "wait"},
+        {"cgdel", id = -1},
+        {"bg", file = "white", time = 500, path = ":bg/"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"相手の超高速砲弾が、空中を貫く。"}
+            },
+            en = {
+                {"Đạn pháo siêu tốc của nó bắn xuyên tầng không."}
+            },
+            cn = {
+                {"敌人的超高速炮弹划过空中。"}
+            }
+        },
+        linkback = "block_00090",
+        linknext = "block_00092",
+        line = 322
+    },
+    block_00092 = {
+        {"msgoff"},
+        {"se", id = 1, file = "se049"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_06", x = 400, y = 0, speed = 1000, time = 300, rule = "_mask12", zoom = 150, sync = 1, path = ":bg/", x2 = -400, y2 = 0, set = "bg43"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"se", id = 2, file = "se063"},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_06", speed = 500, sync = 0, zoom = 100, lv = 5, z2 = 300, path = ":bg/", id = 1, set = "bg43"},
+        {"flash", mode = "siglus", time = 500, alpha = 128, color = "ffffff", style = "ar_screen"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"text"},
+        text = {
+            ja = {
+                {"砲塔表面の装甲材に弾かれたそれは、あらぬ方角に飛んでいく。"}
+            },
+            en = {
+                {"Sau khi va phải lớp ngoài bọc giáp của tháp pháo, viên đạn đột ngột bay nghịch quỹ đạo."}
+            },
+            cn = {
+                {"这些炮弹被炮塔表面的装甲弹开，飞去了各个方向。"}
+            }
+        },
+        linkback = "block_00091",
+        linknext = "block_00093",
+        line = 333
+    },
+    block_00093 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"何もなかった電磁迷彩が乱れ、その向こうに一瞬だけ塔のような構造物が垣間見える。"}
+            },
+            en = {
+                {"Nó bắn trúng một điểm tưởng chừng trống không, song lại khiến lớp ngụy trang điện từ bị nhiễu, và trong một khoảnh khắc tôi đã thấy một kiến trúc na ná tòa tháp tại đó."}
+            },
+            cn = {
+                {"空无一物处的电磁迷彩被扰乱，刹那间在那深处看到了一座类似塔的建筑物。"}
+            }
+        },
+        linkback = "block_00092",
+        linknext = "block_00094",
+        line = 334
+    },
+    block_00094 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg44_01", x = 0, y = 170, speed = 1250, time = 1000, zoom = 150, sync = 1, path = ":bg/", x2 = 0, y2 = -200, set = "bg44"},
+        {"se", id = 0, file = "se218"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg44_03", zoom = 100, x = 0, y = 0, sync = 0, path = ":bg/", set = "bg44", ax = 960, ay = 850, bx = 0},
+        {"bg", id = 2, lv = 5, file = "ef_monitor02_off", movie = 1, style = "ar_add", path = ":ani/", bx = 960, sync = 0},
+        {"extrans", time = 1000},
+        {"ex", time = 250, func = "wait"},
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "bg43_05", time = 1000, path = ":bg/", set = "bg43", sync = 0},
+        {"text"},
+        text = {
+            ja = {
+                {"あれを破壊すれば計画は破綻することに、機械はすぐには気付かないだろう。"}
+            },
+            en = {
+                {"Cỗ máy vẫn chưa nhận ra ngay rằng, nếu nó phá hủy thứ ấy thì kế hoạch của chúng tôi kể như tan tành."}
+            },
+            cn = {
+                {"只要将其摧毁一切计划都会流产这一点，机器可能还无法立刻意识到。"}
+            }
+        },
+        linkback = "block_00093",
+        linknext = "block_00095",
+        line = 349
+    },
+    block_00095 = {
+        {"text"},
+        text = {
+            ja = {
+                {"機械は因果関係の把握は苦手だ。"}
+            },
+            en = {
+                {"Máy móc không giỏi thấu hiểu quan hệ nhân quả."}
+            },
+            cn = {
+                {"机器很不擅长理解因果关系。"}
+            }
+        },
+        linkback = "block_00094",
+        linknext = "block_00096",
+        line = 350
+    },
+    block_00096 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"だとしても、あれの存在を感知させないに越したことはない。"}
+            },
+            en = {
+                {"Dù vậy, tốt hơn hết là không để nó phát giác ra sự tồn tại của thứ ấy."}
+            },
+            cn = {
+                {"尽管如此，最好还是尽量不让它感知到那里存在着的事物。"}
+            }
+        },
+        linkback = "block_00095",
+        linknext = "block_00097",
+        line = 351
+    },
+    block_00097 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts28_07", x = 0, y = 0, speed = 1500, time = 1000, zoom = 200, sync = 1, path = ":ev/", x2 = 100, y2 = 0, set = "ts28"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"se", file = "se150", id = 1},
+        {"bg", id = 2, lv = 5, file = "ef_monitor01_on", movie = 1, style = "ar_add", path = ":ani/", bx = 960, sync = 0},
+        {"bg", id = 1, lv = 5, file = "black", alpha = 255, path = ":bg/", sync = 0},
+        {"extrans", time = 0},
+        {"bg", id = 1, lv = 5, time = 120, file = "ef_reticle_01", rule = "rule120", alpha = 255, path = ":cg2/"},
+        {"ex", video = 1, func = "wait", time = 0},
+        {"bg", id = 2, lv = 5, time = 0, file = "ef_monitor01", movie = 1, style = "ar_add", movieloop = 1, path = ":ani/", bx = 960},
+        {"ex", time = 500, func = "wait"},
+        {"text"},
+        text = {
+            ja = {
+                {"俺は受け持ちの砲塔を操り、攻撃を加えた。"}
+            },
+            en = {
+                {"Tôi điều khiển một khẩu pháo, tiếp tục công kích."}
+            },
+            cn = {
+                {"我操作在我手下的这台炮塔，投入到了进攻。"}
+            }
+        },
+        linkback = "block_00096",
+        linknext = "block_00098",
+        line = 359
+    },
+    block_00098 = {
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts28_07", x = -400, y = -810, speed = 1500, sync = 0, zoom = 250, path = ":ev/", x2 = -400, y2 = -710, set = "ts28"},
+        {"cgdel", id = 1, lv = 5, sync = 0},
+        {"bg", id = 1, lv = 5, file = "ef_reticle_02", path = ":cg2/", sync = 0},
+        {"bg", id = 2, lv = 5, file = "ef_monitor01", movie = 1, style = "ar_add", movieloop = 1, ax = 0, ay = 0, path = ":ani/", bx = 960, sync = 0},
+        {"extrans", time = 1000},
+        {"se", id = 0, file = "se077"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"狙いは相手の脚部に対して。"}
+            },
+            en = {
+                {"Nhắm thẳng vào vùng chân của nó."}
+            },
+            cn = {
+                {"所瞄准的是敌人的腿部。"}
+            }
+        },
+        linkback = "block_00097",
+        linknext = "block_00099",
+        line = 365
+    },
+    block_00099 = {
+        {"cgdel", id = 1, lv = 5},
+        {"cgdel", id = 2, lv = 5},
+        {"msgoff"},
+        {"se", id = 0, file = "se163"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 500, rule = "sig_250", path = ":bg/"},
+        {"se", id = 1, file = "se263"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_07", x = -300, y = -540, speed = 15000, ease = "none", time = 500, rule = "sig_240", zoom = 200, sync = 0, path = ":ev/", x2 = 100, y2 = -540, set = "ts28"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 500, rule = "sig_240"},
+        {"se", id = 2, file = "se063"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"text"},
+        text = {
+            ja = {
+                {"ついに歩脚を一つ潰した。"}
+            },
+            en = {
+                {"Cuối cùng tôi cũng phá được một cái chân của Crimson Eye."}
+            },
+            cn = {
+                {"终于破坏掉其中一条步足。"}
+            }
+        },
+        linkback = "block_00098",
+        linknext = "block_00100",
+        line = 380
+    },
+    block_00100 = {
+        {"text"},
+        text = {
+            ja = {
+                {"だというのに、まともな反撃は俺には来ない。"}
+            },
+            en = {
+                {"Đã vậy mà, nó vẫn không thèm chọn tôi làm mục tiêu phản kích."}
+            },
+            cn = {
+                {"然而，比较强烈的反击却没有冲我而来。"}
+            }
+        },
+        linkback = "block_00099",
+        linknext = "block_00101",
+        line = 381
+    },
+    block_00101 = {
+        {"text"},
+        text = {
+            ja = {
+                {"俺のしていることが反撃優先度の低い行動だからだ。"}
+            },
+            en = {
+                {"Bởi lẽ những gì tôi vừa làm được xếp vào mức độ ưu tiên phản công thấp."}
+            },
+            cn = {
+                {"因为我做出的都是一些反击优先级较低的行为。"}
+            }
+        },
+        linkback = "block_00100",
+        linknext = "block_00102",
+        line = 382
+    },
+    block_00102 = {
+        {"text"},
+        text = {
+            ja = {
+                {"それを知っているから、あえて脚部のみを攻撃している。"}
+            },
+            en = {
+                {"Biết được điều đó, nên tôi quyết chỉ nhắm vào phần chân."}
+            },
+            cn = {
+                {"正因为知道这一点，所以我才特意只对腿部发动攻击。"}
+            }
+        },
+        linkback = "block_00101",
+        linknext = "block_00103",
+        line = 383
+    },
+    block_00103 = {
+        {"text"},
+        text = {
+            ja = {
+                {"時間を稼げばフィリアを遠くに逃がせる。"}
+            },
+            en = {
+                {"Câu thêm thời gian thế này thì Philia sẽ có thể chạy xa hơn."}
+            },
+            cn = {
+                {"只要争取到时间，就能让菲莉娅逃得更远。"}
+            }
+        },
+        linkback = "block_00102",
+        linknext = "block_00104",
+        line = 384
+    },
+    block_00104 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"それが俺たちの勝ちなのだ。"}
+            },
+            en = {
+                {"Nhờ vậy, chúng tôi sẽ chiến thắng."}
+            },
+            cn = {
+                {"这就是属于我们的胜利。"}
+            }
+        },
+        linkback = "block_00103",
+        linknext = "block_00105",
+        line = 385
+    },
+    block_00105 = {
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"msgoff"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 500, rule = "sig_250", path = ":bg/"},
+        {"se", id = 0, file = "se263"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 2, power = 10},
+        {"se", id = 2, file = "se063"},
+        {"text"},
+        text = {
+            ja = {
+                {"２本目の脚部を破壊。"}
+            },
+            en = {
+                {"Đã phá hủy được cái chân thứ hai."}
+            },
+            cn = {
+                {"摧毁了第二条腿部。"}
+            }
+        },
+        linkback = "block_00104",
+        linknext = "block_00106",
+        line = 395
+    },
+    block_00106 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se003"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"bg", file = "cg_ts28_07", speed = 1000, time = 1000, zoom = 125, sync = 0, path = ":ev/", z2 = 150, set = "ts28"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"クリムゾンアイの動きが停止した。"}
+            },
+            en = {
+                {"Crimson Eye ngừng di chuyển."}
+            },
+            cn = {
+                {"赤红之眼的动作停了下来。"}
+            }
+        },
+        linkback = "block_00105",
+        linknext = "block_00107",
+        line = 403
+    },
+    block_00107 = {
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg43_05", sync = 0, x = 0, speed = 1500, zoom = 150, path = ":bg2/", x2 = 100, set = "bg43"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"fg", file = "bs3_jd01_base01", face = "bs3_jd_f01_08", ch = "c001", path = ":fg/", sync = 0, x2 = -100, speed = 1500, mode = 3, head = "bs3_jd0", lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"fg", file = "bs3_jd01_base01", face = "bs3_jd_f01_09", ch = "c001", path = ":fg/", sync = 0, mode = 3, head = "bs3_jd0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400122"}
+            },
+            ja = {
+                {"「よし！」"}
+            },
+            en = {
+                {"\"Ngon!\""}
+            },
+            cn = {
+                {"「好！」"}
+            }
+        },
+        linkback = "block_00106",
+        linknext = "block_00108",
+        line = 412
+    },
+    block_00108 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"修復されるにしろかなりの時間を稼いだ。"}
+            },
+            en = {
+                {"Như thế nó mà sửa cũng phải mất kha khá thời gian."}
+            },
+            cn = {
+                {"哪怕会被修复，也争取到了足够长的时间。"}
+            }
+        },
+        linkback = "block_00107",
+        linknext = "block_00109",
+        line = 414
+    },
+    block_00109 = {
+        {"cgdel", id = 1, lv = 1},
+        {"fg", mode = -2, time = 300},
+        {"bgm", stop = 1, time = 3000},
+        {"msgoff"},
+        {"se", id = 1, file = "se003"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts28_07", x = -500, y = 240, speed = 2000, time = 1000, zoom = 250, sync = 0, path = ":ev/", x2 = -500, y2 = -140, set = "ts28"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1000},
+        {"ex", time = 500, func = "wait"},
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", zoom = 200, y = 0, speed = 1000, ease = "in", sync = 0, path = ":bg2/", y2 = -50, set = "ts28"},
+        {"bg", id = 1, lv = 5, file = "ef_machine22", y = 0, speed = 1000, ease = "in", sync = 0, path = ":fgf/", y2 = -0, ax = 960, ay = 640, bx = 0},
+        {"bg", id = 2, lv = 5, file = "ef_attack02", sync = 0, movie = 1, style = "ar_add", path = ":ani/", bx = 960},
+        {"se", file = "se062", id = 1},
+        {"extrans", time = 500},
+        {"ex", time = 550, func = "wait"},
+        {"cgdel", id = -1},
+        {"bg", file = "white", time = 500, rule = "sig_250", path = ":bg/"},
+        {"se", id = 2, file = "se063"},
+        {"bg", file = "b_bg43_05", zoom = 125, sync = 0, path = ":bg2/", set = "bg43"},
+        {"fg", file = "bs3_jd01_base01", face = "bs3_jd_f01_11", ch = "c001", path = ":fg/", sync = 0, mode = 3, head = "bs3_jd0", lv = 3, id = 13},
+        {"extrans", time = 150, rule = "_mask13"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 500, rule = "sig_250", path = ":bg/"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"se", id = 2, file = "se234"},
+        {"ex", time = 750, func = "wait"},
+        {"text"},
+        text = {
+            ja = {
+                {"そう思った直後、俺が操作していた投射砲が粉砕された。"}
+            },
+            en = {
+                {"Đang nghĩ tới đây, khẩu pháo tôi đang điều khiển bỗng bị nghiền nát."}
+            },
+            cn = {
+                {"就在我这么想的下一秒，我控制的投射炮被炸得粉碎。"}
+            }
+        },
+        linkback = "block_00108",
+        linknext = "block_00110",
+        line = 443
+    },
+    block_00110 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"護衛の六脚ロボットが、咄嗟の盾となって衝撃波と破片から俺を守った。"}
+            },
+            en = {
+                {"Lũ robot sáu chân nhận nhiệm vụ bảo vệ ngay lập tức trở thành khiên, che chắn tôi khỏi sóng xung kích và những mảnh vụn."}
+            },
+            cn = {
+                {"负责护卫的六足机器人化作了一瞬间的盾牌，为我抵挡住了一部分冲击波和碎片。"}
+            }
+        },
+        linkback = "block_00109",
+        linknext = "block_00111",
+        line = 444
+    },
+    block_00111 = {
+        {"msgoff"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 150, rule = "_mask11", path = ":bg/"},
+        {"se", id = 0, file = "se166"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"それでも全ては吸収しきれず、体を強く岩に叩きつけられた。"}
+            },
+            en = {
+                {"Dù vậy, chúng vẫn không thể chặn được tất cả. Cơ thể tôi bị thổi bay đi, đập mạnh vào một hòn đá."}
+            },
+            cn = {
+                {"尽管如此也依然无法全部吸收，身体被猛烈地砸向岩石。"}
+            }
+        },
+        linkback = "block_00110",
+        linknext = "block_00112",
+        line = 452
+    },
+    block_00112 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "b_bg81", time = 300, rule = "rule120", path = ":bg2/", set = "bg81"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400129"}
+            },
+            ja = {
+                {"「……っ！？」"}
+            },
+            en = {
+                {"\".........!?!\""}
+            },
+            cn = {
+                {"「……！？」"}
+            }
+        },
+        linkback = "block_00111",
+        linknext = "block_00113",
+        line = 459
+    },
+    block_00113 = {
+        {"text"},
+        text = {
+            ja = {
+                {"網膜表示によれば気絶していたのは、ほんの一分程度とのことだ。"}
+            },
+            en = {
+                {"Theo như võng mạc hiển thị, có vẻ tôi đã bất tỉnh nhân sự tầm một phút."}
+            },
+            cn = {
+                {"根据视网膜上的显示，我昏迷了大约有一分钟。"}
+            }
+        },
+        linkback = "block_00112",
+        linknext = "block_00114",
+        line = 461
+    },
+    block_00114 = {
+        {"text"},
+        text = {
+            ja = {
+                {"跳ね起きる。"}
+            },
+            en = {
+                {"Tôi vội vàng bật dậy."}
+            },
+            cn = {
+                {"猛地跳起来。"}
+            }
+        },
+        linkback = "block_00113",
+        linknext = "block_00115",
+        line = 462
+    },
+    block_00115 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"きつい頭痛と寒気に襲われた。"}
+            },
+            en = {
+                {"Thì thấy đau đầu dữ dội, sống lưng còn lạnh toát."}
+            },
+            cn = {
+                {"剧烈的头痛与寒气袭来。"}
+            }
+        },
+        linkback = "block_00114",
+        linknext = "block_00116",
+        line = 463
+    },
+    block_00116 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400135"}
+            },
+            ja = {
+                {"「くそ、どうなった……？」"}
+            },
+            en = {
+                {"\"Chó chết, thế nào rồi......?\""}
+            },
+            cn = {
+                {"「该死，发生了什么……？」"}
+            }
+        },
+        linkback = "block_00115",
+        linknext = "block_00117",
+        line = 465
+    },
+    block_00117 = {
+        {"msgoff"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"se", file = "se054", id = 1},
+        {"bg", id = 2, lv = 5, file = "ef_monitor01_on", movie = 1, style = "ar_add", path = ":ani/", bx = 960, sync = 0},
+        {"bg", id = 1, lv = 5, file = "black", alpha = 192, path = ":bg/", sync = 0},
+        {"extrans", time = 0},
+        {"bg", id = 1, lv = 5, time = 120, file = "ef_ui18_02", rule = "rule120", alpha = 192, path = ":cg2/"},
+        {"ex", video = 1, func = "wait", time = 0},
+        {"bg", id = 2, lv = 5, time = 0, file = "ef_monitor01", movie = 1, style = "ar_add", movieloop = 1, path = ":ani/", bx = 960},
+        {"ex", time = 0, func = "wait"},
+        {"flash", color = "ff0000", time = 1000, alpha = 96, loop = -1},
+        {"ex", time = 250, func = "wait"},
+        {"se", file = "se014", id = 1},
+        {"bg", id = 1, lv = 5, file = "ef_ui18_02", zoom = 150, alpha = 192, y = 50, speed = 3000, time = 1000, path = ":cg2/", y2 = -50},
+        {"text"},
+        text = {
+            ja = {
+                {"視界が警告だらけだ。"}
+            },
+            en = {
+                {"Tầm nhìn của tôi hiện đầy những cảnh báo."}
+            },
+            cn = {
+                {"视野中充斥着警告。"}
+            }
+        },
+        linkback = "block_00116",
+        linknext = "block_00118",
+        line = 471
+    },
+    block_00118 = {
+        {"text"},
+        text = {
+            ja = {
+                {"状況も身体ステータスも、赤と黄色で染め上げられている。"}
+            },
+            en = {
+                {"Cả phân tích tình hình lẫn trạng thái cơ thể đều chỉ toàn hai màu đỏ và vàng."}
+            },
+            cn = {
+                {"战场状况和身体状态都被染上了红色或黄色。"}
+            }
+        },
+        linkback = "block_00117",
+        linknext = "block_00119",
+        line = 472
+    },
+    block_00119 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"優先順位の高い危険はどれだ？"}
+            },
+            en = {
+                {"Nguy cơ cao nhất trong thứ tự ưu tiên là gì?"}
+            },
+            cn = {
+                {"哪个才是高优先级的危险？"}
+            }
+        },
+        linkback = "block_00118",
+        linknext = "block_00120",
+        line = 473
+    },
+    block_00120 = {
+        {"flash", mode = "stop"},
+        {"cgdel", id = 1, lv = 5},
+        {"cgdel", id = 2, lv = 5},
+        {"msgoff"},
+        {"se", id = 0, file = "se059"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, path = ":bg/"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"不吉な音が耳を劈く。"}
+            },
+            en = {
+                {"Một thứ âm thanh vô cùng đáng ngại xé toạc tai tôi."}
+            },
+            cn = {
+                {"不祥的声音刺破了耳朵。"}
+            }
+        },
+        linkback = "block_00119",
+        linknext = "block_00121",
+        line = 483
+    },
+    block_00121 = {
+        {"msgoff"},
+        {"bg", color = "0xcf2f36", time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {"急に世界が黄昏のように赤く染まった。"}
+            },
+            en = {
+                {"Đột nhiên thế giới nhuộm trong một sắc đỏ tựa hoàng hôn."}
+            },
+            cn = {
+                {"世界突然染得如黄昏般血红。"}
+            }
+        },
+        linkback = "block_00120",
+        linknext = "block_00122",
+        line = 489
+    },
+    block_00122 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"見上げる。"}
+            },
+            en = {
+                {"Tôi ngước nhìn."}
+            },
+            cn = {
+                {"我抬起头看。"}
+            }
+        },
+        linkback = "block_00121",
+        linknext = "block_00123",
+        line = 490
+    },
+    block_00123 = {
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = -20, speed = 3000, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = 0, y2 = 20, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema300", path = ":fgf/", sync = 0},
+        {"bg", id = 2, lv = 2, file = "black", alpha = 96, path = ":bg/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine20_05", time = 1000, speed = 3000, ease = "in", y = -100, sync = 0, path = ":cg2/", y2 = 0, ax = 960, ay = 640, bx = 0},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"紅玉色の輝きが、天高く輝いていた。"}
+            },
+            en = {
+                {"Ánh sáng màu hồng ngọc tỏa rạng tít trên nền trời cao."}
+            },
+            cn = {
+                {"红宝石般的光芒在天空中闪耀。"}
+            }
+        },
+        linkback = "block_00122",
+        linknext = "block_00124",
+        line = 501
+    },
+    block_00124 = {
+        {"bgm", file = "bgm11b"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"クリムゾンアイ――"}
+            },
+            en = {
+                {"Crimson Eye―"}
+            },
+            cn = {
+                {"赤红之眼……"}
+            }
+        },
+        linkback = "block_00123",
+        linknext = "block_00125",
+        line = 505
+    },
+    block_00125 = {
+        {"text"},
+        text = {
+            ja = {
+                {"脚を失った状態でここまでよじ登ってきたのか？"}
+            },
+            en = {
+                {"Đã mất chân rồi mà nó vẫn leo lên tận đây ư?"}
+            },
+            cn = {
+                {"以失去腿部的状态还能爬来这里吗？"}
+            }
+        },
+        linkback = "block_00124",
+        linknext = "block_00126",
+        line = 509
+    },
+    block_00126 = {
+        {"text"},
+        text = {
+            ja = {
+                {"……いや、サイズが小さい。"}
+            },
+            en = {
+                {"...... Mà không, sao nó lại nhỏ thế này được."}
+            },
+            cn = {
+                {"……不，尺寸小了很多。"}
+            }
+        },
+        linkback = "block_00125",
+        linknext = "block_00127",
+        line = 510
+    },
+    block_00127 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"これは塔の部分だ。"}
+            },
+            en = {
+                {"Hẳn đây là một phần của ngọn tháp trên đầu nó."}
+            },
+            cn = {
+                {"这是塔的那一部分。"}
+            }
+        },
+        linkback = "block_00126",
+        linknext = "block_00128",
+        line = 511
+    },
+    block_00128 = {
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = -20, y = -20, speed = 3000, ease = "none", sync = 0, zoom = 150, path = ":bg2/", x2 = 20, y2 = -20, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema300", path = ":fgf/", sync = 0},
+        {"bg", id = 2, lv = 2, file = "black", alpha = 96, path = ":bg/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine20_04", time = 1000, speed = 3000, ease = "in", x = 0, sync = 0, path = ":cg2/", x2 = -100, ax = 960, ay = 640, bx = 0},
+        {"text"},
+        text = {
+            ja = {
+                {"本体を崖下に残したまま、頭に該当する塔部分だけを脊椎に似たアームを延伸させて運び上げている。"}
+            },
+            en = {
+                {"Bỏ lại thân chính dưới vách đá, chỉ có bộ phận tháp tương ứng với phần đầu là được cánh tay trông từa tựa xương sống kia đưa lên đây."}
+            },
+            cn = {
+                {"将本体留在悬崖下，只将神似脊柱的手臂延伸，向上方托起了相当于头部的塔。"}
+            }
+        },
+        linkback = "block_00127",
+        linknext = "block_00129",
+        line = 519
+    },
+    block_00129 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"そんな芸当ができたか。"}
+            },
+            en = {
+                {"Nó còn làm được trò này cơ à?"}
+            },
+            cn = {
+                {"居然能做出这样的把戏。"}
+            }
+        },
+        linkback = "block_00128",
+        linknext = "block_00130",
+        line = 520
+    },
+    block_00130 = {
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = -20, speed = 3000, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = 0, y2 = 20, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema300", path = ":fgf/", sync = 0},
+        {"bg", id = 2, lv = 2, file = "black", alpha = 96, path = ":bg/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine20_02", time = 1000, speed = 3000, ease = "in", y = -100, sync = 0, path = ":cg2/", y2 = -200, ax = 960, ay = 640, bx = 0},
+        {"text"},
+        text = {
+            ja = {
+                {"象徴的な紅の眼。"}
+            },
+            en = {
+                {"Con mắt màu đỏ mới mang tính biểu tượng làm sao."}
+            },
+            cn = {
+                {"具有象徵性的红眼。"}
+            }
+        },
+        linkback = "block_00129",
+        linknext = "block_00131",
+        line = 528
+    },
+    block_00131 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"明確に俺を見下ろしている。何かのはずみで、抹殺の優先順位が上がったのだ。"}
+            },
+            en = {
+                {"Rõ ràng nó đang nhìn chòng chọc xuống chỗ tôi. Vì nguyên cớ nào đó mà trong mắt nó, xóa sổ tôi đã trở thành một việc ưu tiên."}
+            },
+            cn = {
+                {"它明确地在俯视着我。不知出于何种原因，消灭我的优先级提高了。"}
+            }
+        },
+        linkback = "block_00130",
+        linknext = "block_00132",
+        line = 529
+    },
+    block_00132 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se167"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = -20, speed = 1000, ease = "none", sync = 0, zoom = 200, path = ":bg2/", x2 = 0, y2 = 20, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema300", path = ":fgf/", sync = 0},
+        {"bg", id = 2, lv = 2, file = "black", alpha = 96, path = ":bg/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine20_01", time = 1000, speed = 1000, ease = "in", y = -100, sync = 0, path = ":cg2/", y2 = -50, ax = 960, ay = 640, bx = 0},
+        {"text"},
+        text = {
+            ja = {
+                {"砲の一門が俺をとらえた。"}
+            },
+            en = {
+                {"Nòng pháo của nó chĩa thẳng vào tôi."}
+            },
+            cn = {
+                {"一门炮筒对准了我。"}
+            }
+        },
+        linkback = "block_00131",
+        linknext = "block_00133",
+        line = 538
+    },
+    block_00133 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"近くの残存砲塔を探す。あった。１２０メートルほど先。"}
+            },
+            en = {
+                {"Tôi nhìn quanh mình, tìm những khẩu pháo còn sót lại. Có một cái ở ngay phía trước, cách tôi 120 mét."}
+            },
+            cn = {
+                {"寻找附近尚存的炮塔。有了。在前方大约120米的地方。"}
+            }
+        },
+        linkback = "block_00132",
+        linknext = "block_00134",
+        line = 539
+    },
+    block_00134 = {
+        {"text"},
+        text = {
+            ja = {
+                {"歩く。足がひどく痛んだ。"}
+            },
+            en = {
+                {"Tôi bước tới trên đôi chân đau điếng."}
+            },
+            cn = {
+                {"迈出步子。脚疼得不得了。"}
+            }
+        },
+        linkback = "block_00133",
+        linknext = "block_00135",
+        line = 540
+    },
+    block_00135 = {
+        {"text"},
+        text = {
+            ja = {
+                {"片足を引きずりながら歩く。"}
+            },
+            en = {
+                {"Nhích từng bước, kéo lê một chân đi."}
+            },
+            cn = {
+                {"我跛着一条腿走着。"}
+            }
+        },
+        linkback = "block_00134",
+        linknext = "block_00136",
+        line = 541
+    },
+    block_00136 = {
+        {"text"},
+        text = {
+            ja = {
+                {"まず確実に辿り着くまでに殺されるだろう。"}
+            },
+            en = {
+                {"Cứ thế này, khéo chưa kịp đến nơi thì tôi đã bị giết rồi ấy chứ."}
+            },
+            cn = {
+                {"恐怕我在到达那里之前就会一命呜呼吧。"}
+            }
+        },
+        linkback = "block_00135",
+        linknext = "block_00137",
+        line = 542
+    },
+    block_00137 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"それでも歩くことにした。"}
+            },
+            en = {
+                {"Dù vậy tôi vẫn phải cố mà tiến lên."}
+            },
+            cn = {
+                {"但我还是决定继续走。"}
+            }
+        },
+        linkback = "block_00136",
+        linknext = "block_00138",
+        line = 543
+    },
+    block_00138 = {
+        {"cgdel", id = 1, lv = 1},
+        {"bgm", stop = 1, time = 2000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 1000, path = ":bg/"},
+        {"se", id = 0, file = "se060"},
+        {"ex", time = 2000, func = "wait"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"銃声がした。"}
+            },
+            en = {
+                {"Có tiếng súng."}
+            },
+            cn = {
+                {"听到了枪声。"}
+            }
+        },
+        linkback = "block_00137",
+        linknext = "block_00139",
+        line = 554
+    },
+    block_00139 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_ex", x = 0, y = -270, speed = 6000, ease = "none", time = 1000, zoom = 75, sync = 1, path = ":ev/", x2 = 0, y2 = -470, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"ex", time = 1500, func = "wait"},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11", speed = 1500, time = 1500, zoom = 100, lv = 5, z2 = 110, sync = 1, path = ":ev/", id = 1, set = "ts11"},
+        {"bgm", file = "bgm21"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400163"}
+            },
+            ja = {
+                {"「……フィリア」"}
+            },
+            en = {
+                {"\"......... Philia.\""}
+            },
+            cn = {
+                {"「……菲莉娅」"}
+            }
+        },
+        linkback = "block_00138",
+        linknext = "block_00140",
+        line = 563
+    },
+    block_00140 = {
+        {"text"},
+        text = {
+            ja = {
+                {"あまりにも無謀な行動だった。"}
+            },
+            en = {
+                {"Một pha liều lĩnh quá thể."}
+            },
+            cn = {
+                {"实在是过于草率的行动。"}
+            }
+        },
+        linkback = "block_00139",
+        linknext = "block_00141",
+        line = 565
+    },
+    block_00141 = {
+        {"text"},
+        text = {
+            ja = {
+                {"本人もそれは理解できるはずだった。"}
+            },
+            en = {
+                {"Đáng ra tự thân con bé phải hiểu chứ."}
+            },
+            cn = {
+                {"她本人应该也能理解这一点。"}
+            }
+        },
+        linkback = "block_00140",
+        linknext = "block_00142",
+        line = 566
+    },
+    block_00142 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"クリムゾンアイの注意がフィリアに集まる。"}
+            },
+            en = {
+                {"Crimson Eye dồn sự chú ý vào Philia."}
+            },
+            cn = {
+                {"赤红之眼的注意力集中到了菲莉娅身上。"}
+            }
+        },
+        linkback = "block_00141",
+        linknext = "block_00143",
+        line = 567
+    },
+    block_00143 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_ex", x = 100, y = -100, speed = 8000, ease = "none", time = 1000, zoom = 100, sync = 0, path = ":ev/", x2 = -100, y2 = -100, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"ex", time = 250, func = "wait"},
+        {"se", id = 0, file = "se060"},
+        {"flash", time = 350, alpha = 192, loop = 1, color = "ffffff"},
+        {"ex", time = 800, func = "wait"},
+        {"flash", time = 300, alpha = 128, loop = 1, color = "ffffff"},
+        {"ex", time = 350, func = "wait"},
+        {"flash", time = 400, alpha = 160, loop = 1, color = "ffffff"},
+        {"text"},
+        text = {
+            ja = {
+                {"フィリアは立て続けに発砲する。"}
+            },
+            en = {
+                {"Philia xả đạn liên hồi."}
+            },
+            cn = {
+                {"菲莉娅接连不断地开火。"}
+            }
+        },
+        linkback = "block_00142",
+        linknext = "block_00144",
+        line = 581
+    },
+    block_00144 = {
+        {"text"},
+        text = {
+            ja = {
+                {"弾は巨体のどこかに命中はしている。"}
+            },
+            en = {
+                {"Chỗ đạn ấy đều trúng vào đâu đó trên thân mình khổng lồ kia."}
+            },
+            cn = {
+                {"子弹确实有命中到巨大身躯的某处。"}
+            }
+        },
+        linkback = "block_00143",
+        linknext = "block_00145",
+        line = 582
+    },
+    block_00145 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se167"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = -20, speed = 1000, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = 0, y2 = 20, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema300", path = ":fgf/", sync = 0},
+        {"bg", id = 2, lv = 2, file = "black", alpha = 96, path = ":bg/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine20_02", time = 1000, speed = 1000, ease = "in", y = -100, sync = 0, path = ":cg2/", y2 = -50, ax = 960, ay = 640, bx = 0},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"結果として、クリムゾンアイの砲塔がフィリアに照準された。"}
+            },
+            en = {
+                {"Kết quả là, nòng pháo của Crimson Eye nhắm thẳng vào Philia."}
+            },
+            cn = {
+                {"于是结果，赤红之眼的炮塔开始向着菲莉娅校准。"}
+            }
+        },
+        linkback = "block_00144",
+        linknext = "block_00146",
+        line = 593
+    },
+    block_00146 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400175"}
+            },
+            ja = {
+                {"「……やめろ」"}
+            },
+            en = {
+                {"\"...... Dừng lại đi.\""}
+            },
+            cn = {
+                {"「……停下来」"}
+            }
+        },
+        linkback = "block_00145",
+        linknext = "block_00147",
+        line = 595
+    },
+    block_00147 = {
+        {"cgdel", id = 1, lv = 1},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_ex", x = 100, y = 210, speed = 4000, time = 1000, zoom = 125, sync = 1, path = ":ev/", x2 = -200, y2 = 210, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400176"}
+            },
+            ja = {
+                {"「逃げろ……！」"}
+            },
+            en = {
+                {"\"Chạy đi......!\""}
+            },
+            cn = {
+                {"「快逃……！」"}
+            }
+        },
+        linkback = "block_00146",
+        linknext = "block_00148",
+        line = 600
+    },
+    block_00148 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_ex", x = 100, y = 360, speed = 12000, ease = "none", time = 1000, zoom = 150, sync = 1, path = ":ev/", x2 = -200, y2 = 360, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"text"},
+        text = {
+            ja = {
+                {"理性ではもうわかっている。"}
+            },
+            en = {
+                {"Lý trí của tôi đã sớm thấu tường."}
+            },
+            cn = {
+                {"我的理性非常明白。"}
+            }
+        },
+        linkback = "block_00147",
+        linknext = "block_00149",
+        line = 605
+    },
+    block_00149 = {
+        {"text"},
+        text = {
+            ja = {
+                {"助ける方法はない。"}
+            },
+            en = {
+                {"Rằng chẳng còn cách nào giúp con bé nữa."}
+            },
+            cn = {
+                {"没有办法能够救她。"}
+            }
+        },
+        linkback = "block_00148",
+        linknext = "block_00150",
+        line = 606
+    },
+    block_00150 = {
+        {"text"},
+        text = {
+            ja = {
+                {"終わりだ。"}
+            },
+            en = {
+                {"Kết thúc rồi."}
+            },
+            cn = {
+                {"结束了。"}
+            }
+        },
+        linkback = "block_00149",
+        linknext = "block_00151",
+        line = 607
+    },
+    block_00151 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"爺さんが切り札でも隠し持っていない限り、フィリアが助かる術はない。"}
+            },
+            en = {
+                {"Trừ phi ông lão vẫn giấu con át chủ bài chưa xài tới, bằng không chẳng còn hy vọng nào để cứu Philia nữa rồi."}
+            },
+            cn = {
+                {"除非老人藏有什么底牌，否则菲莉娅绝无得救的可能。"}
+            }
+        },
+        linkback = "block_00150",
+        linknext = "block_00152",
+        line = 608
+    },
+    block_00152 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"全身から力が抜けた。"}
+            },
+            en = {
+                {"Cả cơ thể tôi mất hết sức lực."}
+            },
+            cn = {
+                {"浑身不再使得上力。"}
+            }
+        },
+        linkback = "block_00151",
+        linknext = "block_00153",
+        line = 612
+    },
+    block_00153 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"……ここまでか。"}
+            },
+            en = {
+                {"...... Đến đây thôi sao?"}
+            },
+            cn = {
+                {"……就到此为止了吗。"}
+            }
+        },
+        linkback = "block_00152",
+        linknext = "block_00154",
+        line = 613
+    },
+    block_00154 = {
+        {"bgm", stop = 1, time = 3000},
+        {"msgoff"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 1000, path = ":bg/"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"se", id = 0, file = "se061"},
+        {"ex", time = 1000, func = "wait"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {
+                    "轟音とともにクリムゾンアイが",
+                    {"txruby", text = "かし"},
+                    "傾",
+                    {"txruby"},
+                    "いだ。"
+                }
+            },
+            en = {
+                {"Theo sau một tiếng ầm đinh tai, Crimson Eye nghiêng người."}
+            },
+            cn = {
+                {"随着一阵轰鸣声，赤红之眼“倾倒”了。"}
+            }
+        },
+        linkback = "block_00153",
+        linknext = "block_00155",
+        line = 625
+    },
+    block_00155 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts28_01", x = 0, y = 0, speed = 1500, time = 1000, zoom = 150, sync = 1, path = ":ev/", x2 = 0, y2 = -50, set = "ts28"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400189"}
+            },
+            ja = {
+                {"「……何だ？」"}
+            },
+            en = {
+                {"\"...... Gì vậy?\""}
+            },
+            cn = {
+                {"「……怎么回事？」"}
+            }
+        },
+        linkback = "block_00154",
+        linknext = "block_00156",
+        line = 630
+    },
+    block_00156 = {
+        {"fg", mode = -2, time = 300},
+        {"msgoff"},
+        {"bgm", file = "bgm26"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_ex", x = 0, y = 0, speed = 10000, ease = "none", time = 1000, zoom = 100, sync = 1, path = ":ev/", x2 = 0, y2 = -400, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"フィリアの両隣の空間が揺らいで、黒く染まる。"}
+            },
+            en = {
+                {"Vùng không gian hai bên Philia rung động, rồi dần hóa đen."}
+            },
+            cn = {
+                {"菲莉娅两侧的空间抖动，染上了漆黑。"}
+            }
+        },
+        linkback = "block_00155",
+        linknext = "block_00157",
+        line = 639
+    },
+    block_00157 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"隠蔽解除――"}
+            },
+            en = {
+                {"Giải trừ ngụy trang―"}
+            },
+            cn = {
+                {"隐身解除——"}
+            }
+        },
+        linkback = "block_00156",
+        linknext = "block_00158",
+        line = 640
+    },
+    block_00158 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11", time = 1000, path = ":ev/", set = "ts11"},
+        {"se", id = 0, file = "se153"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_01", time = 1500, path = ":ev/", set = "ts11"},
+        {"text"},
+        text = {
+            ja = {
+                {"そこに隠れていたのは、二基のシンギュラリティマシンだった。"}
+            },
+            en = {
+                {"Ẩn mình tại nơi đó, là hai Singularity Machine."}
+            },
+            cn = {
+                {"藏在那里的，是两台奇点机器。"}
+            }
+        },
+        linkback = "block_00157",
+        linknext = "block_00159",
+        line = 646
+    },
+    block_00159 = {
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_01_ex", x = 960, y = 0, speed = 3000, ease = "none", time = 1000, zoom = 100, sync = 0, path = ":ev/", x2 = 860, y2 = 0, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"text"},
+        text = {
+            ja = {
+                {"どちらもはじめて目にする形をしている。"}
+            },
+            en = {
+                {"Lần đầu tiên tôi tận mắt trông thấy hình dạng của chúng."}
+            },
+            cn = {
+                {"两台的外形我都是第一次见到。"}
+            }
+        },
+        linkback = "block_00158",
+        linknext = "block_00160",
+        line = 648
+    },
+    block_00160 = {
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_01_ex", x = -960, y = -880, speed = 3000, ease = "none", time = 1000, zoom = 100, sync = 0, path = ":ev/", x2 = -860, y2 = -880, set = "ts11", ax = 1920, ay = 1080, bx = -960},
+        {"text"},
+        text = {
+            ja = {
+                {"老人の情報にあった個体だろう。"}
+            },
+            en = {
+                {"Chắc rằng cả hai đều trùng khớp với thông tin tôi nhận được từ ông lão."}
+            },
+            cn = {
+                {"应该是老人的信息中提到的个体。"}
+            }
+        },
+        linkback = "block_00159",
+        linknext = "block_00161",
+        line = 650
+    },
+    block_00161 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"失念していたわけではないが、気にする余裕がなかった。"}
+            },
+            en = {
+                {"Không hẳn là tôi đã quên, song tôi vốn cũng chẳng dư thời gian mà để ý kỹ."}
+            },
+            cn = {
+                {"虽然并不是忘记了，但着实没有精力去关心。"}
+            }
+        },
+        linkback = "block_00160",
+        linknext = "block_00162",
+        line = 651
+    },
+    block_00162 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts11_01", time = 1000, path = ":ev/", set = "ts11"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400198"}
+            },
+            ja = {
+                {"「ジュード！」"}
+            },
+            en = {
+                {"\"Jude ơi!\""}
+            },
+            cn = {
+                {"「裘德！」"}
+            }
+        },
+        linkback = "block_00161",
+        linknext = "block_00163",
+        line = 655
+    },
+    block_00163 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg43_03", sync = 0, zoom = 150, path = ":bg2/", set = "bg43", ax = 960, ay = 693, bx = 0},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", sync = 0, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"駆け寄ってくるフィリアの肩を抱く。"}
+            },
+            en = {
+                {"Tôi nắm chặt vai Philia khi con bé chạy tới."}
+            },
+            cn = {
+                {"我一把抱住飞奔过来菲莉娅的肩膀。"}
+            }
+        },
+        linkback = "block_00162",
+        linknext = "block_00164",
+        line = 660
+    },
+    block_00164 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400202"}
+            },
+            ja = {
+                {"「逃げるぞ。こいつらから離れないと」"}
+            },
+            en = {
+                {"\"Chạy thôi. Tránh xa bọn này ra.\""}
+            },
+            cn = {
+                {"「我们快跑，得赶紧远离这些家伙」"}
+            }
+        },
+        linkback = "block_00163",
+        linknext = "block_00165",
+        line = 662
+    },
+    block_00165 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_01", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400203"}
+            },
+            ja = {
+                {"「こっちの子達は……たぶん大丈夫」"}
+            },
+            en = {
+                {"\"Mấy cậu này...... chắc là không sao đâu ạ.\""}
+            },
+            cn = {
+                {"「这边的孩子们……应该没事的」"}
+            }
+        },
+        linkback = "block_00164",
+        linknext = "block_00166",
+        line = 664
+    },
+    block_00166 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400204"}
+            },
+            ja = {
+                {"「なぜ」"}
+            },
+            en = {
+                {"\"Gì cơ?\""}
+            },
+            cn = {
+                {"「为什么」"}
+            }
+        },
+        linkback = "block_00165",
+        linknext = "block_00167",
+        line = 665
+    },
+    block_00167 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_04", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400205"}
+            },
+            ja = {
+                {"「ずっと守ってくれてたから」"}
+            },
+            en = {
+                {"\"Tại vì mấy cậu ấy đã luôn bảo vệ con mà.\""}
+            },
+            cn = {
+                {"「因为它们一直在保护我」"}
+            }
+        },
+        linkback = "block_00166",
+        linknext = "block_00168",
+        line = 667
+    },
+    block_00168 = {
+        {"text"},
+        text = {
+            ja = {
+                {"待機していたフィリアのもとにも、砲撃は容赦なく飛んできた。"}
+            },
+            en = {
+                {"Bất chấp Phila đang đứng ngay bên cạnh, từng đợt pháo kích vẫn nổ ra không khoan nhượng."}
+            },
+            cn = {
+                {"在别处待命的菲莉娅也遭到了炮火无情的袭击。"}
+            }
+        },
+        linkback = "block_00167",
+        linknext = "block_00169",
+        line = 669
+    },
+    block_00169 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"それを身を挺して防いでいたのが、この二基のシンギュラリティマシンだと、フィリアはたどたどしく語った。"}
+            },
+            en = {
+                {"Philia ấp úng giải thích rằng chính hai Singularity Machine này đã xả thân bảo vệ con bé khỏi những đòn tấn công đó."}
+            },
+            cn = {
+                {"而挺身而出保护了她的正是这两台奇点机器，菲莉娅结结巴巴地说道。"}
+            }
+        },
+        linkback = "block_00168",
+        linknext = "block_00170",
+        line = 670
+    },
+    block_00170 = {
+        {"fg", mode = -2, time = 300},
+        {"msgoff"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = 0, speed = 3000, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = 50, y2 = 0, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine30", ease = "in", speed = 3000, x = 80, path = ":fgf/", x2 = -20, ax = 1024, ay = 640, bx = -64, sync = 0},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400210"}
+            },
+            ja = {
+                {"「こいつらが……おまえを？」"}
+            },
+            en = {
+                {"\"Bọn này...... đã bảo vệ nhóc ư?\""}
+            },
+            cn = {
+                {"「它们……保护了你？」"}
+            }
+        },
+        linkback = "block_00169",
+        linknext = "block_00171",
+        line = 681
+    },
+    block_00171 = {
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = 0, speed = 3000, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = -50, y2 = 0, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine31", ease = "in", speed = 3000, x = -320, path = ":fgf/", x2 = -220, ax = 1024, ay = 640, bx = -64, sync = 0},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"確かに、新手のマシンたちは俺たちを狙う気配がない。"}
+            },
+            en = {
+                {"Quả thật, những cỗ máy mới tới chẳng có vẻ gì là đang nhắm đến chúng tôi cả."}
+            },
+            cn = {
+                {"的确，新来的机器们似乎没有攻击我们的迹象。"}
+            }
+        },
+        linkback = "block_00170",
+        linknext = "block_00172",
+        line = 688
+    },
+    block_00172 = {
+        {"cgdel", id = 1, lv = 1},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg43_03", sync = 0, zoom = 150, path = ":bg2/", set = "bg43", ax = 960, ay = 693, bx = 0},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_04", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", sync = 0, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_01", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, sync = 1, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400214"}
+            },
+            ja = {
+                {"「理由はよくわからないけど、たぶんもうだいじょうぶ」"}
+            },
+            en = {
+                {"\"Con không hiểu lý do lắm, nhưng chắc giờ là ổn rồi ạ.\""}
+            },
+            cn = {
+                {"「原因我不太明白，但应该已经没事了」"}
+            }
+        },
+        linkback = "block_00171",
+        linknext = "block_00173",
+        line = 697
+    },
+    block_00173 = {
+        {"fg", mode = -2, time = 300},
+        {"msgoff"},
+        {"se", id = 0, file = "se153"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = 0, speed = 1500, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = 50, y2 = 0, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine31", ease = "in", speed = 1500, x = 64, path = ":fgf/", x2 = -136, ax = 1024, ay = 640, bx = -64, sync = 0},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"マングローブを思わせる形状の多脚マシンが、クリムゾンアイの塔に組み付き、崖下までもろともに落下する。"}
+            },
+            en = {
+                {"Cỗ máy nhiều chân với bộ dạng hao hao giống cây đước vật lấy phần tháp của Crimson Eye rồi kéo nó xuống dưới vách đá."}
+            },
+            cn = {
+                {"形似红树林的多足机器攀附在赤红之眼的塔上，与其一同落下悬崖。"}
+            }
+        },
+        linkback = "block_00172",
+        linknext = "block_00174",
+        line = 709
+    },
+    block_00174 = {
+        {"cgdel", id = 1, lv = 1},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 150, rule = "_mask11", path = ":bg/"},
+        {"ex", time = 350, func = "wait"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 300, path = ":bg/"},
+        {"se", id = 0, file = "se045"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"text"},
+        text = {
+            ja = {
+                {"数百メートルから落下した衝撃で大地が揺れた。"}
+            },
+            en = {
+                {"Mặt đất rung chuyển do tác động từ cú rơi hàng trăm mét."}
+            },
+            cn = {
+                {"从数百米高处落下造成的冲击震撼了大地。"}
+            }
+        },
+        linkback = "block_00173",
+        linknext = "block_00175",
+        line = 721
+    },
+    block_00175 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"あれだけの質量を持ちながら、落下による損傷をものともしないのは、特殊な衝撃吸収構造を実現しているからか。"}
+            },
+            en = {
+                {"Việc vật thể nặng hàng chục ngàn tấn ấy không bị hư hại sau khi rơi, nhiều khả năng là nhờ kết cấu chống chịu va đập đặc thù của nó."}
+            },
+            cn = {
+                {"尽管有着如此巨大的质量，但也许是由于实现了特殊的冲击吸收结构，它似乎没怎么受到落下造成的损伤。"}
+            }
+        },
+        linkback = "block_00174",
+        linknext = "block_00176",
+        line = 722
+    },
+    block_00176 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 150, rule = "_mask13", path = ":bg/"},
+        {"ex", time = 250, func = "wait"},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_cg_ts28_01", x = 0, y = 0, speed = 3000, ease = "none", sync = 0, zoom = 125, path = ":bg2/", x2 = 50, y2 = 0, set = "ts28"},
+        {"bg", id = 1, lv = 1, file = "cinema200", path = ":fgf/", sync = 0},
+        {"bg", id = 3, lv = 5, file = "ef_machine30", ease = "in", speed = 1500, x = 164, path = ":fgf/", x2 = -36, ax = 1024, ay = 640, bx = -64, sync = 0},
+        {"se", id = 0, file = "se236"},
+        {"extrans", time = 150, rule = "_mask13"},
+        {"text"},
+        text = {
+            ja = {
+                {"ためらうことなく、掘削機型マシンも崖下に身を投じる。"}
+            },
+            en = {
+                {"Không do dự, cỗ máy hình dạng máy xúc cũng thả mình xuống dưới vách đá."}
+            },
+            cn = {
+                {"毫不犹豫地，挖掘机型机器也将自身投下悬崖。"}
+            }
+        },
+        linkback = "block_00175",
+        linknext = "block_00177",
+        line = 733
+    },
+    block_00177 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"クリムゾンアイも引き戻した頭部を基部と結合させ、完全体となって両機を迎え撃つ。"}
+            },
+            en = {
+                {"Crimson Eye thu lại phần đầu và lắp vào thân, quay lại thể hoàn chỉnh, sẵn sàng nghênh chiến cùng hai cỗ máy kia."}
+            },
+            cn = {
+                {"赤红之眼将拖回来的头部与基座相连，变成完整的形态，以迎击两台机器。"}
+            }
+        },
+        linkback = "block_00176",
+        linknext = "block_00178",
+        line = 734
+    },
+    block_00178 = {
+        {"cgdel", id = 1, lv = 1},
+        {"se", stop = 1, id = 0, time = 1000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 150, rule = "_mask13", path = ":bg/"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 300, path = ":bg/"},
+        {"se", id = 0, file = "se164"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts23", x = -100, y = -540, speed = 3000, ease = "none", time = 1500, zoom = 200, sync = 0, path = ":ev/", x2 = 100, y2 = -540, set = "ts23"},
+        {"bg", id = 10, lv = 5, file = "ef_dust01_short", movie = 1, sync = 0, dir = "rx", path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, path = ":ani/", bx = 960},
+        {"extrans", time = 1500},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"ex", time = 500, func = "wait"},
+        {"se", id = 1, file = "se063"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"cgdel", id = -1, sync = 0},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "cg_ts23", x = 100, y = 540, speed = 3000, ease = "none", time = 1500, zoom = 200, sync = 0, path = ":ev/", x2 = -100, y2 = 540, set = "ts23"},
+        {"bg", id = 10, lv = 6, file = "ef_dust01_short", movie = 1, sync = 0, path = ":ani/", bx = 960},
+        {"bg", id = 1, lv = 5, file = "ef_smoke01", movie = 1, ax = 0, ay = 0, sync = 0, zoom = 200, alpha = 192, dir = "rx", path = ":ani/", bx = 960},
+        {"extrans", time = 1500},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"ex", time = 750, func = "wait"},
+        {"cgdel", id = 10, lv = 5},
+        {"cgdel", id = 1, lv = 5},
+        {"se", id = 0, file = "se045"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts23", speed = 1500, time = 500, rule = "sig_240", zoom = 100, lv = 5, z2 = 150, sync = 1, path = ":ev/", id = 1, set = "ts23"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"text"},
+        text = {
+            ja = {
+                {"巨人機同士の戦闘は、想像を絶するものだった。"}
+            },
+            en = {
+                {"Trận chiến giữa những cỗ máy khổng lồ thật quá sức tưởng tượng của tôi."}
+            },
+            cn = {
+                {"巨型机器之间的战斗超乎我的想象。"}
+            }
+        },
+        linkback = "block_00177",
+        linknext = "block_00179",
+        line = 765
+    },
+    block_00179 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"破壊エネルギーが荒れ狂い、地形をも変えていく。"}
+            },
+            en = {
+                {"Năng lượng phá hoại dữ dội khôn cùng, khiến ngay cả địa hình cũng phải biến dạng."}
+            },
+            cn = {
+                {"破坏能量肆虐，甚至也使地形改变。"}
+            }
+        },
+        linkback = "block_00178",
+        linknext = "block_00180",
+        line = 766
+    },
+    block_00180 = {
+        {"msgoff"},
+        {"se", id = 1, file = "se165"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts23", x = -100, y = 0, speed = 3000, ease = "none", time = 1000, zoom = 200, sync = 0, path = ":ev/", x2 = 100, y2 = 0, set = "ts23"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"ex", time = 350, func = "wait"},
+        {"se", id = 0, file = "se045"},
+        {"text"},
+        text = {
+            ja = {
+                {"超大型アームがクリムゾンアイの装甲に食い込み、装甲を引き千切る。"}
+            },
+            en = {
+                {"Cánh tay siêu ngoại cỡ bấu vào giáp thép của Crimson Eye và bắt đầu xé vụn nó ra."}
+            },
+            cn = {
+                {"超大型手臂咬入赤红之眼的装甲，并将其撕裂。"}
+            }
+        },
+        linkback = "block_00179",
+        linknext = "block_00181",
+        line = 775
+    },
+    block_00181 = {
+        {"se", id = 1, file = "se063"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts23", x = 100, y = -200, speed = 3000, ease = "none", time = 1000, zoom = 200, sync = 0, path = ":ev/", x2 = -100, y2 = -200, set = "ts23"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 4, power = 30},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"無数に迫り来る無人機が、何らかの手段で生成された雷撃によって灼かれる。"}
+            },
+            en = {
+                {"Cơ man những UAV ập đến, tất thảy đều bị cho nổ tung chẳng rõ bằng cách nào."}
+            },
+            cn = {
+                {"无数逼近过来的无人机，被不知何种方式生成的雷击所烧焦。"}
+            }
+        },
+        linkback = "block_00180",
+        linknext = "block_00182",
+        line = 781
+    },
+    block_00182 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts23", time = 1000, path = ":ev/", set = "ts23"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400226"}
+            },
+            ja = {
+                {"「……クリムゾンアイは強力だな」"}
+            },
+            en = {
+                {"\"...... Crimson Eye đúng là mạnh thật.\""}
+            },
+            cn = {
+                {"「……赤红之眼真是强大啊」"}
+            }
+        },
+        linkback = "block_00181",
+        linknext = "block_00183",
+        line = 785
+    },
+    block_00183 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts23", x = -480, y = 100, speed = 5000, ease = "none", time = 1000, zoom = 150, sync = 1, path = ":ev/", x2 = -480, y2 = -100, set = "ts23"},
+        {"text"},
+        text = {
+            ja = {
+                {"２対１でありながら、互角に近い状態を維持している。"}
+            },
+            en = {
+                {"Dù là hai chọi một thì đôi bên vẫn duy trì thế ngang cơ."}
+            },
+            cn = {
+                {"即使是二对一，它也能保持近乎平手的状态。"}
+            }
+        },
+        linkback = "block_00182",
+        linknext = "block_00184",
+        line = 790
+    },
+    block_00184 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"それでも戦いが長引くにつれて、徐々に劣勢に追い込まれていった。"}
+            },
+            en = {
+                {"Dẫu vậy, khi cuộc so găng càng kéo dài thì nó lại dần lùi về bên yếu thế hơn."}
+            },
+            cn = {
+                {"然而随着战斗时间被拉长，它逐渐被逼入劣势。"}
+            }
+        },
+        linkback = "block_00183",
+        linknext = "block_00185",
+        line = 791
+    },
+    block_00185 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se168"},
+        {"fg", mode = -2},
+        {"bg", file = "cg_ts23", speed = 1500, time = 1000, zoom = 100, lv = 5, z2 = 115, sync = 1, path = ":ev/", id = 1, set = "ts23"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"クリムゾンアイが解体されていく。"}
+            },
+            en = {
+                {"Crimson Eye đang bị giải giáp."}
+            },
+            cn = {
+                {"赤红之眼被一步步拆解。"}
+            }
+        },
+        linkback = "block_00184",
+        linknext = "block_00186",
+        line = 799
+    },
+    block_00186 = {
+        {"text"},
+        text = {
+            ja = {
+                {"無人機の量産が停止し、火器が失われ、最後は象徴である赤い目がアームに潰された。"}
+            },
+            en = {
+                {"Đình trệ việc sản xuất UAV hàng loạt, mất đi vũ khí, và cuối cùng đến cả con mắt đỏ biểu tượng cũng bị cánh tay kia bóp nát."}
+            },
+            cn = {
+                {"无人机的批量生产停了下来，火器悉数失去，而最终象征性的红色眼睛也被手臂击碎。"}
+            }
+        },
+        linkback = "block_00185",
+        linknext = "block_00187",
+        line = 800
+    },
+    block_00187 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"全身からも漏れていた赤い光が、一斉に消えた。"}
+            },
+            en = {
+                {"Ánh sáng đỏ vốn luôn hắt ra từ toàn thân nó đột nhiên tắt ngấm."}
+            },
+            cn = {
+                {"渗出自全身的红光一齐消失了。"}
+            }
+        },
+        linkback = "block_00186",
+        linknext = "block_00188",
+        line = 801
+    },
+    block_00188 = {
+        {"se", stop = 1, id = 0, time = 1000},
+        {"se", stop = 1, id = 1, time = 1000},
+        {"bgm", stop = 1, time = 2000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, path = ":bg/"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg43_04", x = 0, y = -170, speed = 2000, ease = "none", time = 1500, zoom = 150, sync = 1, path = ":bg/", x2 = 0, y2 = -270, set = "bg43"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400234"}
+            },
+            ja = {
+                {"「……終わった」"}
+            },
+            en = {
+                {"\"...... Kết thúc rồi.\""}
+            },
+            cn = {
+                {"「……结束了」"}
+            }
+        },
+        linkback = "block_00187",
+        linknext = "block_00189",
+        line = 810
+    },
+    block_00189 = {
+        {"msgoff"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg43_04", sync = 0, zoom = 150, path = ":bg2/", set = "bg43"},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_01", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", sync = 0, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400235"}
+            },
+            ja = {
+                {"「行こう」"}
+            },
+            en = {
+                {"\"Ta đi thôi.\""}
+            },
+            cn = {
+                {"「走吧」"}
+            }
+        },
+        linkback = "block_00188",
+        linknext = "block_00190",
+        line = 815
+    },
+    block_00190 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400236"}
+            },
+            ja = {
+                {"「ああ」"}
+            },
+            en = {
+                {"\"Ừ.\""}
+            },
+            cn = {
+                {"「嗯」"}
+            }
+        },
+        linkback = "block_00189",
+        linknext = "block_00191",
+        line = 816
+    },
+    block_00191 = {
+        {"fg", mode = -2, time = 300},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"bg", id = 1, lv = 1, file = "cinema200", time = 500, path = ":fgf/"},
+        {"se", id = 0, file = "se169"},
+        {"quake", dir = "user", move = "wh", dir2 = "wh", time = 120, count = 3, power = 20},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"歩こうとして、膝をついてしまった。"}
+            },
+            en = {
+                {"Vừa toan bước đi, chợt tôi khuỵu xuống."}
+            },
+            cn = {
+                {"我正要走，却跪倒在了地上。"}
+            }
+        },
+        linkback = "block_00190",
+        linknext = "block_00192",
+        line = 828
+    },
+    block_00192 = {
+        {"bgm", file = "bgm21"},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400240"}
+            },
+            ja = {
+                {"「ジュードっ？」"}
+            },
+            en = {
+                {"\"Jude?!\""}
+            },
+            cn = {
+                {"「裘德？」"}
+            }
+        },
+        linkback = "block_00191",
+        linknext = "block_00193",
+        line = 833
+    },
+    block_00193 = {
+        {"fg", mode = -2, time = 300},
+        {"text"},
+        text = {
+            ja = {
+                {"片足の感覚がない。完全に無感覚になっている。"}
+            },
+            en = {
+                {"Tôi không còn cảm giác một bên chân nữa. Hoàn toàn tê liệt."}
+            },
+            cn = {
+                {"我的一条腿失去了知觉。完全没有了任何感觉。"}
+            }
+        },
+        linkback = "block_00192",
+        linknext = "block_00194",
+        line = 837
+    },
+    block_00194 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"自分の意思じゃ、指一本動かせない。"}
+            },
+            en = {
+                {"Dù cố cách mấy tôi cũng chẳng thể cử động một ngón tay."}
+            },
+            cn = {
+                {"我自己的意识甚至调动不了一根手指。"}
+            }
+        },
+        linkback = "block_00193",
+        linknext = "block_00195",
+        line = 838
+    },
+    block_00195 = {
+        {"text"},
+        text = {
+            ja = {
+                {"表示されるバイタル関連項目を消す。"}
+            },
+            en = {
+                {"Tôi xóa hết những thông báo liên quan đến dấu hiệu sinh tồn."}
+            },
+            cn = {
+                {"删去了生命体征相关的提示。"}
+            }
+        },
+        linkback = "block_00194",
+        linknext = "block_00196",
+        line = 839
+    },
+    block_00196 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"もう確認したところで仕方がない。"}
+            },
+            en = {
+                {"Giờ có kiểm tra cũng chẳng để làm gì."}
+            },
+            cn = {
+                {"再多确认几眼也起不到什么作用。"}
+            }
+        },
+        linkback = "block_00195",
+        linknext = "block_00197",
+        line = 840
+    },
+    block_00197 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400247"}
+            },
+            ja = {
+                {"「……疲れた。先に行っててくれ」"}
+            },
+            en = {
+                {"\"...... Tôi mệt rồi. Đi trước đi.\""}
+            },
+            cn = {
+                {"「……我累了，你先走吧」"}
+            }
+        },
+        linkback = "block_00196",
+        linknext = "block_00198",
+        line = 843
+    },
+    block_00198 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400248"}
+            },
+            ja = {
+                {"「やだ」"}
+            },
+            en = {
+                {"\"Con không muốn.\""}
+            },
+            cn = {
+                {"「不要」"}
+            }
+        },
+        linkback = "block_00197",
+        linknext = "block_00199",
+        line = 845
+    },
+    block_00199 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400249"}
+            },
+            ja = {
+                {"「じきに動けるようになる。おまえだけ先に行ってろ」"}
+            },
+            en = {
+                {"\"Chẳng mấy chốc tôi lại bay nhảy như thường ngay ấy mà. Mình nhóc đi trước đi.\""}
+            },
+            cn = {
+                {"「我再过一会就能动了，你先在前面走着」"}
+            }
+        },
+        linkback = "block_00198",
+        linknext = "block_00200",
+        line = 846
+    },
+    block_00200 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400250"}
+            },
+            ja = {
+                {"「やだ。"}
+            },
+            en = {
+                {"\"Con không muốn."}
+            },
+            cn = {
+                {"「不要。"}
+            }
+        },
+        linkback = "block_00199",
+        linknext = "block_00201",
+        line = 848
+    },
+    block_00201 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_01", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400251"}
+            },
+            ja = {
+                {"肩を貸すから、一緒に来て」"}
+            },
+            en = {
+                {"Chú phải đi cùng con. Tựa lên vai con đi.\""}
+            },
+            cn = {
+                {"我来扶着你，我们一起走」"}
+            }
+        },
+        linkback = "block_00200",
+        linknext = "block_00202",
+        line = 850
+    },
+    block_00202 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400252"}
+            },
+            ja = {
+                {"「今動くのはきついんだ」"}
+            },
+            en = {
+                {"\"Giờ bảo tôi di chuyển thì khó lắm.\""}
+            },
+            cn = {
+                {"「现在动起来实在太难受了」"}
+            }
+        },
+        linkback = "block_00201",
+        linknext = "block_00203",
+        line = 851
+    },
+    block_00203 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400253"}
+            },
+            ja = {
+                {"「きつくても歩いて」"}
+            },
+            en = {
+                {"\"Khó cũng phải đi.\""}
+            },
+            cn = {
+                {"「难受也走起来」"}
+            }
+        },
+        linkback = "block_00202",
+        linknext = "block_00204",
+        line = 853
+    },
+    block_00204 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400254"}
+            },
+            ja = {
+                {"「頭痛もひどくてな。歩くごとに響くんだ」"}
+            },
+            en = {
+                {"\"Đầu cũng đau nữa. Đi một bước là lại váng một cái.\""}
+            },
+            cn = {
+                {"「头也痛得厉害，每走一步都要命」"}
+            }
+        },
+        linkback = "block_00203",
+        linknext = "block_00205",
+        line = 854
+    },
+    block_00205 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400255"}
+            },
+            ja = {
+                {"「我慢して」"}
+            },
+            en = {
+                {"\"Ráng chịu đi chú.\""}
+            },
+            cn = {
+                {"「忍一忍」"}
+            }
+        },
+        linkback = "block_00204",
+        linknext = "block_00206",
+        line = 856
+    },
+    block_00206 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400256"}
+            },
+            ja = {
+                {"「手厳しくなったな」"}
+            },
+            en = {
+                {"\"Tự nhiên nghiêm khắc thế.\""}
+            },
+            cn = {
+                {"「你变严厉起来了啊」"}
+            }
+        },
+        linkback = "block_00205",
+        linknext = "block_00207",
+        line = 857
+    },
+    block_00207 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_01", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400257"}
+            },
+            ja = {
+                {"「先生がいいからだね」"}
+            },
+            en = {
+                {"\"Nhờ có giáo viên tốt đấy ạ.\""}
+            },
+            cn = {
+                {"「都是老师教得好呀」"}
+            }
+        },
+        linkback = "block_00206",
+        linknext = "block_00208",
+        line = 859
+    },
+    block_00208 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c001", file = "z004400258"}
+            },
+            ja = {
+                {"「ハハ……」"}
+            },
+            en = {
+                {"\"Haha......\""}
+            },
+            cn = {
+                {"「哈哈……」"}
+            }
+        },
+        linkback = "block_00207",
+        linknext = "block_00209",
+        line = 860
+    },
+    block_00209 = {
+        {"fg", mode = -2, time = 300},
+        {"cgdel", id = 1, lv = 1},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, rule = "rule101", wait = 0, path = ":bg/"},
+        {"bgm", stop = 1, time = 3000},
+        {"text"},
+        text = {
+            ja = {
+                {"本当にフィリアの肩を借りるようにして、目的地に入る。"}
+            },
+            en = {
+                {"Tôi khoác tay lên vai Philia thật, rồi bước tới điểm đích."}
+            },
+            cn = {
+                {"我真的扶着菲莉娅的肩膀，进入了目的地。"}
+            }
+        },
+        linkback = "block_00208",
+        linknext = "block_00210",
+        line = 869
+    },
+    block_00210 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"隠蔽されていた内側に足を踏み入れると、予想した通りのものがそびえ立っていた。"}
+            },
+            en = {
+                {"Khi bước vào phía bên trong của nơi vốn được ngụy trang, kiến trúc dạng tháp mà tôi vốn đã dự đoán trước đang vươn lên sừng sững."}
+            },
+            cn = {
+                {"踏进被隐藏起来的内部后，如我预料中的事物便在那里耸立着。"}
+            }
+        },
+        linkback = "block_00209",
+        linknext = "block_00211",
+        line = 870
+    },
+    block_00211 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "white", time = 1500, path = ":bg/"},
+        {"bgm", file = "bgm23"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg44", x = 0, y = 0, speed = 30000, ease = "none", time = 2000, zoom = 100, sync = 1, path = ":bg/", x2 = 0, y2 = -621, set = "bg44", ax = 960, ay = 850, bx = 0},
+        {"text"},
+        text = {
+            ja = {
+                {"軌道エレベーター――"}
+            },
+            en = {
+                {"Thang máy không gian―"}
+            },
+            cn = {
+                {"轨道电梯——"}
+            }
+        },
+        linkback = "block_00210",
+        linknext = "block_00212",
+        line = 878
+    },
+    block_00212 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"老人は、この先にいる。"}
+            },
+            en = {
+                {"Ông lão đang ở trên đó."}
+            },
+            cn = {
+                {"老人就在这前方。"}
+            }
+        },
+        linkback = "block_00211",
+        linknext = "block_00213",
+        line = 879
+    },
+    block_00213 = {
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg44_01", x = 0, y = 130, speed = 15000, ease = "none", time = 1500, zoom = 125, sync = 0, path = ":bg/", x2 = 0, y2 = -130, set = "bg44"},
+        {"text"},
+        text = {
+            ja = {
+                {"地上の基部構造から天に伸び上がる、トラス構造の柱。"}
+            },
+            en = {
+                {"Một cột tháp xây theo kết cấu giàn nối dài từ phần móng dưới mặt đất lên tận bầu trời."}
+            },
+            cn = {
+                {"从地面基底结构向天空延伸出了桁架结构的支柱。"}
+            }
+        },
+        linkback = "block_00212",
+        linknext = "block_00214",
+        line = 883
+    },
+    block_00214 = {
+        {"text"},
+        text = {
+            ja = {
+                {"多重構造になっており、中心部にあるものがこの建造物の芯なのだろう。"}
+            },
+            en = {
+                {"Công trình này sở hữu cấu trúc đa lớp, và lớp giữa đây dường như chính là lõi của nó."}
+            },
+            cn = {
+                {"这里形成了多层结构，位于中心的部分应该就是这座建筑物的核心。"}
+            }
+        },
+        linkback = "block_00213",
+        linknext = "block_00215",
+        line = 884
+    },
+    block_00215 = {
+        {"text"},
+        text = {
+            ja = {
+                {"それほど大きな設備ではない。"}
+            },
+            en = {
+                {"Nơi này cũng không quá lớn."}
+            },
+            cn = {
+                {"并不是多么巨大的设备。"}
+            }
+        },
+        linkback = "block_00214",
+        linknext = "block_00216",
+        line = 885
+    },
+    block_00216 = {
+        {"text"},
+        text = {
+            ja = {
+                {"思っていたよりずっとコンパクトだ。"}
+            },
+            en = {
+                {"Nói thật thì nó khiêm tốn hơn tôi nghĩ."}
+            },
+            cn = {
+                {"比我想象的要紧致得多。"}
+            }
+        },
+        linkback = "block_00215",
+        linknext = "block_00217",
+        line = 886
+    },
+    block_00217 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"こんなものなのか、と拍子抜けする。"}
+            },
+            en = {
+                {"Tôi đâm chán nản khi biết chỉ có thế này thôi."}
+            },
+            cn = {
+                {"心想着只是不过如此啊，有些扫兴。"}
+            }
+        },
+        linkback = "block_00216",
+        linknext = "block_00218",
+        line = 887
+    },
+    block_00218 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg44_02", time = 1000, path = ":bg/", set = "bg44"},
+        {"text"},
+        text = {
+            ja = {
+                {"基部は一部に破損が認められた。"}
+            },
+            en = {
+                {"Một phần móng đã bị hư hại."}
+            },
+            cn = {
+                {"基座的一部分存在着些损坏。"}
+            }
+        },
+        linkback = "block_00217",
+        linknext = "block_00219",
+        line = 891
+    },
+    block_00219 = {
+        {"text"},
+        text = {
+            ja = {
+                {"さきほどの戦闘で、塔の防御機構でも防ぎきれなかった弾によるものだろう。"}
+            },
+            en = {
+                {"Hẳn là hậu quả từ những viên đạn mà đến cơ chế phòng thủ của tòa tháp cũng không thể cản phá được trong trận chiến ban nãy."}
+            },
+            cn = {
+                {"可能是刚才的战斗中，塔的防御机制也没能拦下的子弹所造成的吧。"}
+            }
+        },
+        linkback = "block_00218",
+        linknext = "block_00220",
+        line = 892
+    },
+    block_00220 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"紙一重の戦いだった、ということだ。"}
+            },
+            en = {
+                {"Nói cách khác, cuộc giao tranh vừa xong quả là chỉ mành treo chuông."}
+            },
+            cn = {
+                {"也就是说，真是一场一念之差的较量。"}
+            }
+        },
+        linkback = "block_00219",
+        linknext = "block_00221",
+        line = 893
+    },
+    block_00221 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, rule = "rule101", wait = 0, path = ":bg/"},
+        {"se", id = 0, file = "se246"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"構内に入る。"}
+            },
+            en = {
+                {"Chúng tôi bước vào bên trong tòa tháp."}
+            },
+            cn = {
+                {"进入建筑内部。"}
+            }
+        },
+        linkback = "block_00220",
+        linknext = "block_00222",
+        line = 899
+    },
+    block_00222 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg45", x = -480, y = -250, speed = 35000, ease = "none", time = 1000, rule = "rule101", zoom = 150, sync = 1, path = ":bg/", x2 = 480, y2 = -250, set = "bg45"},
+        {"text"},
+        text = {
+            ja = {
+                {"小規模な駅のような構造だ。"}
+            },
+            en = {
+                {"Nơi này trông như một nhà ga quy mô nhỏ."}
+            },
+            cn = {
+                {"构造上像是一个小型车站。"}
+            }
+        },
+        linkback = "block_00221",
+        linknext = "block_00223",
+        line = 904
+    },
+    block_00223 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"音声放送が入る。"}
+            },
+            en = {
+                {"Giọng nói phát thanh vang lên."}
+            },
+            cn = {
+                {"广播声响起。"}
+            }
+        },
+        linkback = "block_00222",
+        linknext = "block_00224",
+        line = 905
+    },
+    block_00224 = {
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "bg45", time = 1000, path = ":bg/", set = "bg45"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c003", file = "z004400275"}
+            },
+            ja = {
+                {"『フィリア君』"}
+            },
+            en = {
+                {"[Philia-kun.]"}
+            },
+            cn = {
+                {"『菲莉娅』"}
+            }
+        },
+        linkback = "block_00223",
+        linknext = "block_00225",
+        line = 909
+    },
+    block_00225 = {
+        {"fg", file = "bs2_ph03_base01", face = "bs2_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs2_ph01_parts01", time = 300, mode = 3, head = "bs2_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400276"}
+            },
+            ja = {
+                {"「は、はいっ？　公爵さん？」"}
+            },
+            en = {
+                {"\"D-Dạ?! Ông Công tước đấy ạ?\""}
+            },
+            cn = {
+                {"「是、是的？　公爵先生？」"}
+            }
+        },
+        linkback = "block_00224",
+        linknext = "block_00226",
+        line = 913
+    },
+    block_00226 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c003", file = "z004400277"}
+            },
+            ja = {
+                {"『医務室に内部治療用のカプセルがある。彼をそこに寝かせるように』"}
+            },
+            en = {
+                {"[Trong phòng y tế có một viên nang chuyên dụng cho việc điều trị nội khoa. Mau đưa cậu ta vào nghỉ trong đó.]"}
+            },
+            cn = {
+                {"『医疗室内有个治疗内伤用的胶囊舱。你帮他躺进那里』"}
+            }
+        },
+        linkback = "block_00225",
+        linknext = "block_00227",
+        line = 914
+    },
+    block_00227 = {
+        {"fg", file = "bs2_ph03_base01", face = "bs2_ph_f01_13", ch = "c002", path = ":fg/", ex01 = "bs2_ph01_parts01", time = 300, mode = 3, head = "bs2_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400278"}
+            },
+            ja = {
+                {"「わかりましたっ」"}
+            },
+            en = {
+                {"\"Cháu biết rồi ạ!\""}
+            },
+            cn = {
+                {"「我知道了」"}
+            }
+        },
+        linkback = "block_00226",
+        linknext = "block_00228",
+        line = 916
+    },
+    block_00228 = {
+        {"fg", mode = -2, time = 300},
+        {"bgm", stop = 1, time = 2000},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, rule = "rule101", path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"指定された部屋に行く。"}
+            },
+            en = {
+                {"Chúng tôi bước vào căn phòng được chỉ."}
+            },
+            cn = {
+                {"走向指定的房间。"}
+            }
+        },
+        linkback = "block_00227",
+        linknext = "block_00229",
+        line = 923
+    },
+    block_00229 = {
+        {"text"},
+        text = {
+            ja = {
+                {"音声ガイダンスに従い、装備を解除し指定された軟質素材で作られた甲冑のようなメディカルスーツを身につける。"}
+            },
+            en = {
+                {"Nghe theo hướng dẫn, con bé tháo hết trang bị trên người tôi ra, rồi cho tôi mặc một bộ đồ y tế tạo thành từ vật liệu mềm dẻo khá giống áo giáp."}
+            },
+            cn = {
+                {"我按照语音指南脱下装备，穿上由柔软材料制成的形似盔甲的医疗套装。"}
+            }
+        },
+        linkback = "block_00228",
+        linknext = "block_00230",
+        line = 924
+    },
+    block_00230 = {
+        {"text"},
+        text = {
+            ja = {
+                {"点滴バンドを二箇所につけ、排泄物処理用のホースをスーツに繋ぐ。"}
+            },
+            en = {
+                {"Con bé nối hai đầu ống truyền tĩnh mạch, xong còn cắm một cái ống thải bài tiết vào bộ đồ."}
+            },
+            cn = {
+                {"戴上两处点滴带，将处理排泄物的管道连接到了医疗套装上。"}
+            }
+        },
+        linkback = "block_00229",
+        linknext = "block_00231",
+        line = 925
+    },
+    block_00231 = {
+        {"text"},
+        text = {
+            ja = {
+                {"……かなり本格的な治療を受けるようだ。"}
+            },
+            en = {
+                {"...... Xem chừng tôi sẽ được trị liệu tương đối công phu đây."}
+            },
+            cn = {
+                {"……看来要接受的是相当正式的治疗。"}
+            }
+        },
+        linkback = "block_00230",
+        linknext = "block_00232",
+        line = 926
+    },
+    block_00232 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"胃の内部を確認され、嘔吐時などに気道を確保するためのソフトホースを飲まされる。"}
+            },
+            en = {
+                {"Sau khi khám nội tạng, tôi được đeo một cái ống mềm để đảm bảo thông đường thở phòng khi nôn mửa hay sự cố khác."}
+            },
+            cn = {
+                {"检查胃部后，让我吞下了用来呕吐时保障气道的软管。"}
+            }
+        },
+        linkback = "block_00231",
+        linknext = "block_00233",
+        line = 927
+    },
+    block_00233 = {
+        {"text"},
+        text = {
+            ja = {
+                {"やっとで準備が終わり、カプセルに入る。"}
+            },
+            en = {
+                {"Chuẩn bị đâu ra đấy xong, tôi vào trong viên nang."}
+            },
+            cn = {
+                {"准备工作总算完成，我钻进了胶囊。"}
+            }
+        },
+        linkback = "block_00232",
+        linknext = "block_00234",
+        line = 928
+    },
+    block_00234 = {
+        {"text"},
+        text = {
+            ja = {
+                {"カプセルはストレッチャーも兼ねており、自走機能もあった。"}
+            },
+            en = {
+                {"Viên nang còn có thể dùng làm cáng, thậm chí sở hữu cả chức năng tự hành."}
+            },
+            cn = {
+                {"胶囊舱同时也兼任着担架，另外还有自动行驶功能。"}
+            }
+        },
+        linkback = "block_00233",
+        linknext = "block_00235",
+        line = 929
+    },
+    block_00235 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"体を固定する指示が出たので、自分で行う。"}
+            },
+            en = {
+                {"Tôi tự xoay xở theo hướng dẫn cố định thân người bên trong viên nang."}
+            },
+            cn = {
+                {"指示要求固定身体，我自己动手做好。"}
+            }
+        },
+        linkback = "block_00234",
+        linknext = "block_00236",
+        line = 930
+    },
+    block_00236 = {
+        {"msgoff"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", id = 2, lv = 5, time = 200, file = "ef_monitor02b_off", movie = 1, style = "ar_add", alpha = 170, path = ":ani/", bx = 960},
+        {"se", file = "se010", id = 1},
+        {"ex", time = 50, func = "wait"},
+        {"bg", id = 1, lv = 5, file = "ef_monitor_black", sync = 0, zoom = 110, path = ":fgf/"},
+        {"bg", id = 2, lv = 5, file = "ef_monitor_wi01", sync = 0, path = ":fgf/"},
+        {"bg", id = 20, lv = 9, file = "ef_monitor01", movie = 1, movieloop = 1, style = "ar_add", path = ":ani/", bx = 960},
+        {"extrans", time = 450, rule = "rule081"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c003", file = "z004400289"}
+            },
+            ja = {
+                {"『頭部にかなり深刻な損傷があるようだが、心配はいらん。治療可能だ。"}
+            },
+            en = {
+                {"[Có vẻ cậu bị thương khá nghiêm trọng ở phần đầu, nhưng không phải lo lắng, vẫn chữa được."}
+            },
+            cn = {
+                {"『头部似乎遭受了相当严重的损伤，但不用担心，可以治愈。"}
+            }
+        },
+        linkback = "block_00235",
+        linknext = "block_00237",
+        line = 936
+    },
+    block_00237 = {
+        {"bg", id = 1, lv = 5, file = "ef_monitor_black", sync = 0, zoom = 110, time = 300, path = ":fgf/"},
+        {"bg", id = 2, lv = 5, file = "ef_monitor_wi02", sync = 0, time = 300, path = ":fgf/"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c003", file = "z004400290"}
+            },
+            ja = {
+                {"その装置は開頭せずに患部に働きかけるものだが、高重力下では難しい手順がある。治療を実施しながら、ここまで移動してもらう』"}
+            },
+            en = {
+                {"Thiết bị này có thể xử lý vùng bị thương mà không cần phải mở hộp sọ, nhưng dưới môi trường trọng lực cao thế này thì có những quy trình rất khó thực hiện. Ta cần cậu di chuyển lên đây trong lúc tiến hành điều trị.]"}
+            },
+            cn = {
+                {"这个设备可以无需开颅即对患部进行处理，但在强引力下有一些比较难以实施的步骤。进行着治疗的同时，我会将你们转移到这里』"}
+            }
+        },
+        linkback = "block_00236",
+        linknext = "block_00238",
+        line = 938
+    },
+    block_00238 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400291"}
+            },
+            ja = {
+                {"「大丈夫なのか？」"}
+            },
+            en = {
+                {"\"Vậy có sao không?\""}
+            },
+            cn = {
+                {"「没问题的吗？」"}
+            }
+        },
+        linkback = "block_00237",
+        linknext = "block_00239",
+        line = 939
+    },
+    block_00239 = {
+        {"bg", id = 1, lv = 5, file = "ef_monitor_black", sync = 0, zoom = 110, time = 300, path = ":fgf/"},
+        {"bg", id = 2, lv = 5, file = "ef_monitor_wi03", sync = 0, time = 300, path = ":fgf/"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c003", file = "z004400292"}
+            },
+            ja = {
+                {"『保証しよう。睡眠治療が終わる頃には、到着しているさ』"}
+            },
+            en = {
+                {"[Ta có thể đảm bảo rằng lúc cậu hồi tỉnh sau khi kết thúc trị liệu thì thang máy cũng vừa lên đến nơi.]"}
+            },
+            cn = {
+                {"『我保证。当睡眠治疗结束时，你们应该就能到达了』"}
+            }
+        },
+        linkback = "block_00238",
+        linknext = "block_00240",
+        line = 941
+    },
+    block_00240 = {
+        {"bg", id = 1, lv = 5, file = "ef_monitor_black", sync = 0, zoom = 110, time = 300, path = ":fgf/"},
+        {"bg", id = 2, lv = 5, file = "ef_monitor_wi02", sync = 0, time = 300, path = ":fgf/"},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c003", file = "z004400293"}
+            },
+            ja = {
+                {"『フィリア君は、カプセルに付き添ってくれたまえ。機器を操作する必要はない。自動でクライマーと連結される』"}
+            },
+            en = {
+                {"[Philia-kun, nhờ cháu túc trực bên viên nang nhé. Cháu không cần phải thao tác gì cả, nó sẽ tự động kết nối với khoang.]"}
+            },
+            cn = {
+                {"『菲莉娅，你就陪在胶囊舱旁边吧。不需要操作设备，它会自动和攀登器形成连接』"}
+            }
+        },
+        linkback = "block_00239",
+        linknext = "block_00241",
+        line = 943
+    },
+    block_00241 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400294"}
+            },
+            ja = {
+                {"「はい」"}
+            },
+            en = {
+                {"\"Vâng ạ.\""}
+            },
+            cn = {
+                {"「好的」"}
+            }
+        },
+        linkback = "block_00240",
+        linknext = "block_00242",
+        line = 944
+    },
+    block_00242 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400295"}
+            },
+            ja = {
+                {"「そこは……宇宙なのか？」"}
+            },
+            en = {
+                {"\"Nơi đó...... là vũ trụ sao?\""}
+            },
+            cn = {
+                {"「那里是……宇宙吗？」"}
+            }
+        },
+        linkback = "block_00241",
+        linknext = "block_00243",
+        line = 945
+    },
+    block_00243 = {
+        {"bg", id = 1, lv = 5, file = "ef_monitor_black", sync = 0, zoom = 110, time = 300, path = ":fgf/"},
+        {"bg", id = 2, lv = 5, file = "ef_monitor_wi01", sync = 0, time = 300, path = ":fgf/"},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c003", file = "z004400296"}
+            },
+            ja = {
+                {"『そこまでは来てもらう必要はない。地球の重力圏内……月重力センターまでだよ。二日もかかるまい。私もこれからそちらに移動する。また会おう』"}
+            },
+            en = {
+                {"[Không nhất thiết phải lên tới tận đó. Nơi cậu đến sẽ vẫn nằm trong trường trọng lực Trái Đất...... là Trung tâm Trọng lực Mặt Trăng. Chuyến đi sẽ mất hai ngày. Giờ ta cũng di chuyển lên đó đây. Gặp lại cậu sau.]"}
+            },
+            cn = {
+                {"『不会要你们去到那么远的地方。只需要来地球引力范围内的……月球引力中心就可以了，大概用不了两天的时间。我也会移动去那边。那么我们再会』"}
+            }
+        },
+        linkback = "block_00242",
+        linknext = "block_00244",
+        line = 947
+    },
+    block_00244 = {
+        {"msgoff"},
+        {"bg", id = 20, lv = 9, file = "ef_monitor02b_off", movie = 1, style = "ar_add", path = ":ani/", bx = 960},
+        {"se", file = "se011", id = 1},
+        {"bg", file = "black", path = ":bg/"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"extrans", time = 450, rule = "rule081"},
+        {"ex", time = 500, func = "wait"},
+        {"fg", mode = -2, sync = 0},
+        {"bg", file = "b_bg45", sync = 0, zoom = 150, path = ":bg2/", set = "bg45"},
+        {"bg", id = 1, lv = 1, file = "cinema250", path = ":fgf/", sync = 0},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_14", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", sync = 0, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            ja = {
+                {"通信を終えると、フィリアが心配そうにこちらをうかがっていた。"}
+            },
+            en = {
+                {"Ông lão vừa kết thúc liên lạc, Philia liền nhìn tôi với vẻ lo lắng."}
+            },
+            cn = {
+                {"通讯结束后，菲莉娅担忧地观察着我。"}
+            }
+        },
+        linkback = "block_00243",
+        linknext = "block_00245",
+        line = 957
+    },
+    block_00245 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"投薬がはじまっているのか、痛みが引いてきた。"}
+            },
+            en = {
+                {"Hình như quá trình điều trị đã bắt đầu hay sao, mà tôi cảm thấy đỡ đau dần rồi."}
+            },
+            cn = {
+                {"也许是已经投入了药物，疼痛感有所减轻。"}
+            }
+        },
+        linkback = "block_00244",
+        linknext = "block_00246",
+        line = 958
+    },
+    block_00246 = {
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c001", file = "z004400301"}
+            },
+            ja = {
+                {"「……銃を向けたりして、悪かったな。本心じゃなかったんだ……」"}
+            },
+            en = {
+                {"\"...... Xin lỗi vì đã chĩa súng vào nhóc. Tôi vốn không định làm vậy đâu......\""}
+            },
+            cn = {
+                {"「……抱歉，之前拿枪指着你。那不是我的本意……」"}
+            }
+        },
+        linkback = "block_00245",
+        linknext = "block_00247",
+        line = 960
+    },
+    block_00247 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_10", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            vo = {
+                {"vo", ch = "c002", file = "z004400302"}
+            },
+            ja = {
+                {"「私もごめんなさい。"}
+            },
+            en = {
+                {"\"Con cũng xin lỗi."}
+            },
+            cn = {
+                {"「我也很对不起。"}
+            }
+        },
+        linkback = "block_00246",
+        linknext = "block_00248",
+        line = 962
+    },
+    block_00248 = {
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_16", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", time = 300, mode = 3, head = "bs3_ph0", lv = 3, id = 13},
+        {"text"},
+        text = {
+            pagebreak = true,
+            vo = {
+                {"vo", ch = "c002", file = "z004400303"}
+            },
+            ja = {
+                {"死なないで」"}
+            },
+            en = {
+                {"Đừng chết nhé.\""}
+            },
+            cn = {
+                {"请不要死」"}
+            }
+        },
+        linkback = "block_00247",
+        linknext = "block_00249",
+        line = 964
+    },
+    block_00249 = {
+        {"msgoff"},
+        {"se", id = 0, file = "se178"},
+        {"bg", file = "b_bg45", sync = 0, path = ":bg2/", set = "bg45"},
+        {"fg", file = "bs3_ph03_base01", face = "bs3_ph_f01_04", ch = "c002", path = ":fg/", ex01 = "bs3_ph01_parts01", sync = 0, zoom = 125, mode = 3, head = "bs3_ph0", x = 30, y = 35, lv = 3, id = 13},
+        {"extrans", time = 1000},
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"フィリアが俺の顔を撫でた。"}
+            },
+            en = {
+                {"Philia vuốt nhẹ mặt tôi."}
+            },
+            cn = {
+                {"菲莉娅抚摸了我的脸。"}
+            }
+        },
+        linkback = "block_00248",
+        linknext = "block_00250",
+        line = 970
+    },
+    block_00250 = {
+        {"cgdel", id = 1, lv = 1},
+        {"msgoff"},
+        {"se", id = 0, file = "se170"},
+        {"msgoff"},
+        {"cgdel", id = -1},
+        {"fg", mode = -2},
+        {"bg", file = "black", time = 1000, rule = "rule100", path = ":bg/"},
+        {"text"},
+        text = {
+            ja = {
+                {"カプセルがゆっくりと閉じた。"}
+            },
+            en = {
+                {"Viên nang từ từ đóng lại."}
+            },
+            cn = {
+                {"胶囊舱门缓缓关闭。"}
+            }
+        },
+        linkback = "block_00249",
+        linknext = "block_00251",
+        line = 978
+    },
+    block_00251 = {
+        {"text"},
+        text = {
+            pagebreak = true,
+            ja = {
+                {"記憶できているのは、一両きりの小型列車のようなものに、カプセルごと乗り込んだところまでだった。"}
+            },
+            en = {
+                {"Ký ức tôi chỉ kịp ghi lại việc đã cùng viên nang này có mặt trên một vật thể giống tàu điện con."}
+            },
+            cn = {
+                {"我的记忆，只到整个胶囊舱被载到了像是一节小型列车的东西上为止。"}
+            }
+        },
+        linkback = "block_00250",
+        linknext = "block_00252",
+        line = 979
+    },
+    block_00252 = {
+        {"achievements", name = "stat_18"},
+        {"exreturn"},
+        {"text"},
+        linkback = "block_00251",
+        line = 984
+    },
+    label = {
+        z00 = {block = "block_00000", label = 2},
+        top = {block = "block_00000", label = 1}
+    }
+}
