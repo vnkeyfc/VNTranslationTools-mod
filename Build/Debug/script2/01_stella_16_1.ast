@@ -36,7 +36,7 @@ ast = {
                 {"今日、カプセルの中で誕生したばかりだった。"}
             },
             en = {
-                {"Em chỉ vừa được sinh ra trong viên nang vào hôm nay."}
+                {"Em chỉ vừa được sinh ra trong kén nhộng vào hôm nay."}
             },
             cn = {
                 {"今天，她才刚刚在胶囊舱中诞生。"}
@@ -3026,7 +3026,7 @@ ast = {
                 {"気候が変動し、大陸の形が変わるほどの時が流れて。"}
             },
             en = {
-                {"Thời gian đã trôi qua lâu đến nỗi khí hậu cũng xáo trộn và làm thay da đổi thịt cho bề mặt địa hình."}
+                {"Thời gian đã trôi qua lâu đến nỗi khí hậu cũng xáo trộn và làm thay da đổi thịt cho địa hình địa mạo."}
             },
             cn = {
                 {"荏苒的时光足以使沧海化为桑田。"}

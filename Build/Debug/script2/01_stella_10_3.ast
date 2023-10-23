@@ -322,7 +322,7 @@ ast = {
                 {"内部構造が露出し、疑似血液が周囲を濡らしていた。"}
             },
             en = {
-                {"Kết cấu bên trong tràn hết ra ngoài, và máu giả bắn ra ướt đẫm xung quanh."}
+                {"Kết cấu bên trong tràn hết ra ngoài, và máu giả bắn ướt đẫm xung quanh."}
             },
             cn = {
                 {"内部结构暴露出来，仿生血液沾湿了周围。"}
@@ -2986,7 +2986,7 @@ ast = {
                 {"男たちに囚われたのはその時なんです。おふたりのことを信頼しきれず、つい話を伏せてしまいました」"}
             },
             en = {
-                {"Đó cũng là lúc những người kia bắt được cháu. Ban đầu cháu chưa thật sự tin tưởng hai người, nên thành ra phải giấu nhẹm đi.\""}
+                {"Đó cũng là lúc những người kia bắt được cháu. Ban đầu cháu chưa thật sự tin tưởng hai người, nên mới phải giấu nhẹm đi.\""}
             },
             cn = {
                 {"就是那时我被那些男人抓住了。因为当时没有完全信任你们，所以没有说出实情」"}
@@ -3623,7 +3623,7 @@ ast = {
                 {"思っても口には出すな、と身振りで伝える。"}
             },
             en = {
-                {"Tôi giơ tay ra hiệu, rằng 'Cứ để trong tâm, đừng nói thành lời'."}
+                {"Tuy nhận thức được, song lại chẳng thể thốt nên lời."}
             },
             cn = {
                 {"我用肢体语言告诉她，哪怕想也不要说出口。"}

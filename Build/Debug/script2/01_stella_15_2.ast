@@ -4748,7 +4748,7 @@ ast = {
                 {"「いつもジュードが正しかったよ」"}
             },
             en = {
-                {"\"Jude lúc nào cũng đứng về chính nghĩa mà.\""}
+                {"\"Jude lúc nào cũng làm đúng mà.\""}
             },
             cn = {
                 {"「裘德做的每一次都是正确的」"}
@@ -4769,7 +4769,7 @@ ast = {
                 {"「俺にあったのは正しさだけで、力がなかった。でも、おまえは正しさを越えていく。その日はきっと近い」"}
             },
             en = {
-                {"\"Cha chỉ có thể làm điều phải mà thôi, chứ chẳng hề có sức mạnh. Nhưng con sau này sẽ vượt qua cả chính nghĩa. Ngày đó đã gần lắm rồi.\""}
+                {"\"Cha chỉ có thể làm điều phải mà thôi, chứ chẳng hề có sức mạnh. Nhưng con sau này sẽ còn làm được nhiều hơn cả cái đúng. Ngày đó đã gần lắm rồi.\""}
             },
             cn = {
                 {"「我能做到的只有正确，但我没有能力。而你总有一天会超越我的正确，那一天一定已经不远了」"}
@@ -5697,7 +5697,7 @@ ast = {
                 {"「俺は……運んだよな？」"}
             },
             en = {
-                {"\"Cha đã...... chuyển đến tận tay rồi phải không?\""}
+                {"\"Cha đã...... chuyển đến tận nơi rồi phải không?\""}
             },
             cn = {
                 {"「我……已经送到了吧？」"}
@@ -5718,7 +5718,7 @@ ast = {
                 {"「うん、運んだよ」"}
             },
             en = {
-                {"\"Vâng, cha đã chuyển tận tay rồi.\""}
+                {"\"Vâng, cha đã chuyển tận nơi rồi.\""}
             },
             cn = {
                 {"「嗯，送到了哦」"}
@@ -5884,7 +5884,7 @@ ast = {
                 {"「娘を……送り届けた」"}
             },
             en = {
-                {"\"Đã giao tận tay...... cô con gái này rồi.\""}
+                {"\"Đã giao tận nơi...... cô con gái này rồi.\""}
             },
             cn = {
                 {"「把女儿……送到了目的地」"}

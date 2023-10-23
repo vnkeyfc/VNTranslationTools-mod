@@ -5,14 +5,14 @@ ast = {
         {"msg", no = 99, mode = "novel"},
         {"user", mode = "altthumb", no = 9},
         {"msgoff"},
-        {"savetitle", text = "歓迎された侵入者", en = "Welcomed Intruders", cn = "遭受欢迎的入侵者"},
+        {"savetitle", text = "歓迎された侵入者", en = "Kẻ xâm nhập được hoan nghênh", cn = "遭受欢迎的入侵者"},
         {"user", mode = "autosave", no = 9},
         {"eval", exp = "g.chap09=1"},
         {"cgdel", id = -1},
         {"fg", mode = -2},
         {"bg", file = "white", path = ":bg/"},
         {"se", file = "se_eyecatch00", id = 1},
-        {"savetitle", text = "歓迎された侵入者", en = "Welcomed Intruders", cn = "遭受欢迎的入侵者"},
+        {"savetitle", text = "歓迎された侵入者", en = "Kẻ xâm nhập được hoan nghênh", cn = "遭受欢迎的入侵者"},
         {"bg", file = "eyecatch_09", movie = 1, path = ":ani/", bx = 960},
         {"ex", movie = 1, func = "wait", time = 0},
         {"ex", time = 4000, func = "wait"},
@@ -2683,7 +2683,7 @@ ast = {
                 {"「どこに着きそう？」"}
             },
             en = {
-                {"\"Chú nghĩ mình sẽ đi tới đâu?\""}
+                {"\"Mình sẽ đi tới đâu chú nhỉ?\""}
             },
             cn = {
                 {"「快到哪里了？」"}

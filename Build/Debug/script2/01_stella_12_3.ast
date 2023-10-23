@@ -4840,7 +4840,7 @@ ast = {
                 {"『医務室に内部治療用のカプセルがある。彼をそこに寝かせるように』"}
             },
             en = {
-                {"[Trong phòng y tế có một viên nang chuyên dụng cho việc điều trị nội khoa. Mau đưa cậu ta vào nghỉ trong đó.]"}
+                {"[Trong phòng y tế có một kén nhộng chuyên dụng cho việc điều trị nội khoa. Mau đưa cậu ta vào nghỉ trong đó.]"}
             },
             cn = {
                 {"『医疗室内有个治疗内伤用的胶囊舱。你帮他躺进那里』"}
@@ -4971,7 +4971,7 @@ ast = {
                 {"やっとで準備が終わり、カプセルに入る。"}
             },
             en = {
-                {"Chuẩn bị đâu ra đấy xong, tôi vào trong viên nang."}
+                {"Chuẩn bị đâu ra đấy xong, tôi vào trong kén."}
             },
             cn = {
                 {"准备工作总算完成，我钻进了胶囊。"}
@@ -4988,7 +4988,7 @@ ast = {
                 {"カプセルはストレッチャーも兼ねており、自走機能もあった。"}
             },
             en = {
-                {"Viên nang còn có thể dùng làm cáng, thậm chí sở hữu cả chức năng tự hành."}
+                {"Kén nhộng còn có thể dùng làm cáng, thậm chí sở hữu cả chức năng tự hành."}
             },
             cn = {
                 {"胶囊舱同时也兼任着担架，另外还有自动行驶功能。"}
@@ -5006,7 +5006,7 @@ ast = {
                 {"体を固定する指示が出たので、自分で行う。"}
             },
             en = {
-                {"Tôi tự xoay xở theo hướng dẫn cố định thân người bên trong viên nang."}
+                {"Tôi tự xoay xở theo hướng dẫn cố định thân người bên trong kén."}
             },
             cn = {
                 {"指示要求固定身体，我自己动手做好。"}
@@ -5124,7 +5124,7 @@ ast = {
                 {"『フィリア君は、カプセルに付き添ってくれたまえ。機器を操作する必要はない。自動でクライマーと連結される』"}
             },
             en = {
-                {"[Philia-kun, nhờ cháu túc trực bên viên nang nhé. Cháu không cần phải thao tác gì cả, nó sẽ tự động kết nối với khoang.]"}
+                {"[Philia-kun, nhờ cháu túc trực bên kén nhộng nhé. Cháu không cần phải thao tác gì cả, nó sẽ tự động kết nối với khoang.]"}
             },
             cn = {
                 {"『菲莉娅，你就陪在胶囊舱旁边吧。不需要操作设备，它会自动和攀登器形成连接』"}
@@ -5345,7 +5345,7 @@ ast = {
                 {"カプセルがゆっくりと閉じた。"}
             },
             en = {
-                {"Viên nang từ từ đóng lại."}
+                {"Chiếc kén từ từ đóng lại."}
             },
             cn = {
                 {"胶囊舱门缓缓关闭。"}
@@ -5363,7 +5363,7 @@ ast = {
                 {"記憶できているのは、一両きりの小型列車のようなものに、カプセルごと乗り込んだところまでだった。"}
             },
             en = {
-                {"Ký ức tôi chỉ kịp ghi lại việc đã cùng viên nang này có mặt trên một vật thể giống tàu điện con."}
+                {"Ký ức tôi chỉ kịp ghi lại việc đã cùng kén nhộng này có mặt trên một vật thể giống tàu điện con."}
             },
             cn = {
                 {"我的记忆，只到整个胶囊舱被载到了像是一节小型列车的东西上为止。"}

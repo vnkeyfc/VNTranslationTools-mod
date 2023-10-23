@@ -674,7 +674,7 @@ ast = {
                 {"固まったフィリアの肩を押してゲートを進む。"}
             },
             en = {
-                {"Thấy Philia còn đang đứng ngẩn ra như người mất hồn, tôi đẩy vai con bé mà bước qua cánh cổng."}
+                {"Thấy Philia còn mải đứng ngẩn ra như người mất hồn, tôi đẩy vai con bé mà bước qua cánh cổng."}
             },
             cn = {
                 {"菲莉娅愣在原地，我推着它的肩膀走进大门。"}
@@ -1382,7 +1382,7 @@ ast = {
                 {"荒事の現場を見せたのは失敗だった。"}
             },
             en = {
-                {"Để con bé thấy cảnh bắn nhau như vậy quả là sai lầm."}
+                {"Để con bé thấy cảnh bắn nhau thế kia quả là sai lầm."}
             },
             cn = {
                 {"让它看到这一片狼藉的场面是我的失策。"}

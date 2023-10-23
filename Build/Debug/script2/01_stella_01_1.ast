@@ -965,7 +965,7 @@ ast = {
                 {"幸い、うまくやり過ごせてはいるが……油断はできない"}
             },
             en = {
-                {"Tôi đã may mắn tới được tận đây… song không thể buông lơi cảnh giác được."}
+                {"Tôi đã may mắn tới được tận đây... song không thể buông lơi cảnh giác được."}
             },
             cn = {
                 {"还好目前算是顺利应付了过去……但依然不能掉以轻心"}
@@ -987,13 +987,13 @@ ast = {
         {"ex", time = 500, func = "wait"},
         {"user", mode = "altthumb", no = 1},
         {"msgoff"},
-        {"savetitle", text = "遭遇と覚醒", en = "Encounter and Awakening", cn = "遭遇与觉醒"},
+        {"savetitle", text = "遭遇と覚醒", en = "Tao ngộ và thức tỉnh", cn = "遭遇与觉醒"},
         {"user", mode = "autosave", no = 1},
         {"eval", exp = "g.chap01=1"},
         {"cgdel", id = -1},
         {"fg", mode = -2},
         {"bg", file = "white", path = ":bg/"},
-        {"savetitle", text = "遭遇と覚醒", en = "Encounter and Awakening", cn = "遭遇与觉醒"},
+        {"savetitle", text = "遭遇と覚醒", en = "Tao ngộ và thức tỉnh", cn = "遭遇与觉醒"},
         {"bg", file = "eyecatch_01", movie = 1, path = ":ani/", bx = 960},
         {"ex", movie = 1, func = "wait", time = 0},
         {"ex", time = 4000, func = "wait"},

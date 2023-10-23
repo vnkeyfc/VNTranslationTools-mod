@@ -1142,7 +1142,7 @@ ast = {
                 {"「ジュードはカプセルに入る準備して」"}
             },
             en = {
-                {"\"Jude chuẩn bị vào viên nang đi.\""}
+                {"\"Jude chuẩn bị vào kén nhộng đi.\""}
             },
             cn = {
                 {"「裘德去做好进胶囊舱前的准备」"}
@@ -1765,7 +1765,7 @@ ast = {
                 {"例の服を着て、カプセルに横たわる。"}
             },
             en = {
-                {"Tôi thay đồ, rồi ngả người xuống viên nang."}
+                {"Tôi thay đồ, rồi ngả người xuống chiếc kén."}
             },
             cn = {
                 {"穿上了那套衣服，躺进胶囊舱。"}
@@ -2627,7 +2627,7 @@ ast = {
                 {"カプセルの通知音が鳴る。"}
             },
             en = {
-                {"Chuông thông báo của viên nang vang lên."}
+                {"Chuông thông báo của kén nhộng vang lên."}
             },
             cn = {
                 {"胶囊舱响起了通知声。"}
@@ -2694,7 +2694,7 @@ ast = {
                 {"カプセルに乗った俺を、アンドロイドたちが駅まで押し運ぶ。"}
             },
             en = {
-                {"Nhóm người máy đẩy viên nang tôi đang nằm ra ga."}
+                {"Nhóm người máy đẩy kén nhộng tôi đang nằm ra ga."}
             },
             cn = {
                 {"我乘进了胶囊舱，由仿生人们推着前去车站。"}

@@ -5,14 +5,14 @@ ast = {
         {"msg", no = 99, mode = "novel"},
         {"user", mode = "altthumb", no = 18},
         {"msgoff"},
-        {"savetitle", text = "人類の選択", en = "The Choice of Mankind", cn = "人类的选择"},
+        {"savetitle", text = "人類の選択", en = "Lựa chọn của nhân loại", cn = "人类的选择"},
         {"user", mode = "autosave", no = 18},
         {"eval", exp = "g.chap18=1"},
         {"cgdel", id = -1},
         {"fg", mode = -2},
         {"bg", file = "white", path = ":bg/"},
         {"se", file = "se_eyecatch02", id = 1},
-        {"savetitle", text = "人類の選択", en = "The Choice of Mankind", cn = "人类的选择"},
+        {"savetitle", text = "人類の選択", en = "Lựa chọn của nhân loại", cn = "人类的选择"},
         {"bg", file = "eyecatch_18", movie = 1, path = ":ani/", bx = 960},
         {"ex", movie = 1, func = "wait", time = 0},
         {"ex", time = 4000, func = "wait"},
@@ -94,7 +94,7 @@ ast = {
                 {"カプセルが開き、音声ガイダンスの手順通りにスーツを取り外していく。"}
             },
             en = {
-                {"Tôi mở nắp viên nang, và cởi bỏ bộ đồ theo chỉ dẫn bằng giọng nói."}
+                {"Tôi mở nắp kén, và cởi bỏ bộ đồ theo chỉ dẫn bằng giọng nói."}
             },
             cn = {
                 {"舱门打开了，我根据语音指南的步骤一件件脱下套装。"}
@@ -172,7 +172,7 @@ ast = {
                 {"カプセルをおりて、床に立とうとして驚く。"}
             },
             en = {
-                {"Ngay khi ra ngoài viên nang rồi toan đứng trên sàn, tôi không khỏi ngỡ ngàng."}
+                {"Ngay khi ra ngoài kén rồi toan đứng trên sàn, tôi không khỏi ngỡ ngàng."}
             },
             cn = {
                 {"从胶囊舱中走下地，想站到地板上时我不禁诧异。"}
@@ -351,7 +351,7 @@ ast = {
                 {"装備はカプセル脇のソフトケースに入れてあった。身につける。"}
             },
             en = {
-                {"Hành lý của tôi nằm gọn trong cái hộp mềm cạnh viên nang. Tôi lấy chúng ra rồi trang bị tất cả vào người."}
+                {"Hành lý của tôi nằm gọn trong cái hộp mềm cạnh kén nhộng. Tôi lấy chúng ra rồi trang bị tất cả vào người."}
             },
             cn = {
                 {"装备都放在了胶囊舱旁边的塑料软盒里。将它们穿戴起来。"}

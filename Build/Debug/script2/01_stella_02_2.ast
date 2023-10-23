@@ -63,7 +63,7 @@ ast = {
                 {"搭載されているモジュールの中に、飛行目的にはそぐわない、いわば死重量となっている部品があった。"}
             },
             en = {
-                {"Trong số các mô-đun được trang bị, có một phần chẳng hề phù hợp với việc bay lượn, tạm gọi là \"trọng lượng chết\"."}
+                {"Trong số các mô đun được trang bị, có một phần chẳng hề phù hợp với việc bay lượn, tạm gọi là \"trọng lượng chết\"."}
             },
             cn = {
                 {"在其搭载的模块中，有一个与飞行无关，白白增加了负荷的部件。"}
@@ -4001,7 +4001,7 @@ ast = {
                 {"だから＜連中＞に遭遇することは日常だ。"}
             },
             en = {
-                {"Vậy nên, chạm trán <bọn chúng> là chuyện cơm bữa."}
+                {"Vậy nên, chạm trán \"bọn chúng\" là chuyện cơm bữa."}
             },
             cn = {
                 {"因此与“它们”的遭遇早已司空见惯。"}
@@ -4323,7 +4323,7 @@ ast = {
                 {"やがて、役目を終えたキューブも沈黙した。"}
             },
             en = {
-                {"Khôi lập phương sau khi hoàn thành vai trò của mình cũng tắt ngóm."}
+                {"Khối lập phương sau khi hoàn thành vai trò của mình cũng tắt ngóm."}
             },
             cn = {
                 {"完成了使命的立方体也随之陷入沉默。"}

@@ -30,7 +30,7 @@ ast = {
                 {"無数の超高層ビルが密集し、その隙間に道路や高架を血管のように張り巡らせた結果、最下層にあたる部分には陽光はほとんど届かなくなる。"}
             },
             en = {
-                {"Nhờ ơn vô số tòa nhà cao tầng tập trung với mật độ dày đặc, cùng cơ man nao là các con đường và cầu vượt đan xen trông chẳng khác mạch máu, mà hầu như không có chút ánh sáng Mặt Trời nào chạm được tới tầng trệt."}
+                {"Nhờ ơn vô số tòa nhà cao tầng tập trung với mật độ dày đặc, cùng cơ man nào là các con đường và cầu vượt đan xen trông chẳng khác mạch máu, mà hầu như không có chút ánh sáng Mặt Trời nào chạm được tới tầng trệt."}
             },
             cn = {
                 {"无数的超高层大楼紧密聚集，道路和高架像血管一样星罗棋布，导致最下层几乎照不到阳光。"}
@@ -320,7 +320,7 @@ ast = {
                 {"ライフルを握る手が、痛いほどに力んでいた。"}
             },
             en = {
-                {"Tôi dồn quá nhiều lực vào cánh tay đang nắm khẩu súng trường, đến nỗi gây đau."}
+                {"Tôi dồn quá nhiều lực vào cánh tay đang nắm khẩu súng trường, đến nỗi bị đau."}
             },
             cn = {
                 {"不自觉手上的步枪握得更狠了。"}
@@ -4831,7 +4831,7 @@ ast = {
                 {"運搬対象が軽くなければ使えないものだが、フィリアの体重なら問題なかった。"}
             },
             en = {
-                {"Việc này chỉ có thể tiến hành khi đối tượng vận chuyển không quá nặng, nhưng trọng lượng cơ thể của Philia thế là vừa vặn."}
+                {"Việc này chỉ có thể tiến hành khi đối tượng vận chuyển không quá nặng, và may thay trọng lượng cơ thể của Philia thế là vừa vặn."}
             },
             cn = {
                 {"搬运对象够轻才用得了这种担架，不过菲莉娅的体重没问题。"}

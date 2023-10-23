@@ -1301,7 +1301,7 @@ ast = {
                 {"モニターに映像だけでも出す。何も映っていない。"}
             },
             en = {
-                {"Trên màn hình chỉ hiển thị hình ảnh, còn thì không hiện gì khác."}
+                {"Vẫn không thấy gì lạ trên màn hình."}
             },
             cn = {
                 {"尽可能在显示器上调出图像，但画面上什么都没有。"}

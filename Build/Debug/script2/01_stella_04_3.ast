@@ -426,7 +426,7 @@ ast = {
                 {"実に納得である。"}
             },
             en = {
-                {"Nên như vậy."}
+                {"Tốt nhất nên như vậy."}
             },
             cn = {
                 {"实在是令人信服。"}
@@ -1908,7 +1908,7 @@ ast = {
                 {"途方もない集中力だ。はじめて見た。"}
             },
             en = {
-                {"Khả năng tập trung thần sầu như này, lần đầu tiên tôi được thấy."}
+                {"Khả năng tập trung thần sầu thế kia, lần đầu tiên tôi được thấy."}
             },
             cn = {
                 {"如此惊人的集中力，这是我第一次见到。"}

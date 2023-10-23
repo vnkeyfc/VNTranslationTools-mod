@@ -2478,7 +2478,7 @@ ast = {
                 {"こいつは感情移入を促すように造られているから。"}
             },
             en = {
-                {"Con bé này được tạo ra để khơi gợi lòng thấu cảm mà."}
+                {"Con bé này được tạo ra để khơi gợi lòng thương cảm mà."}
             },
             cn = {
                 {"它造出来的目的就是为了引起人们共情。"}

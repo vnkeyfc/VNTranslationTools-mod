@@ -1741,7 +1741,7 @@ ast = {
                 {"窓ひとつない暗闇の関係者用通路を通り、上層駅に出る扉に手をかけた。"}
             },
             en = {
-                {"Bằng qua một hành lang âm u thiếu cửa sổ dành riêng cho những người có phận sự, tôi đặt tay lên cánh cửa dẫn lên nhà ga tầng trên."}
+                {"Băng qua một hành lang âm u thiếu cửa sổ dành riêng cho những người có phận sự, tôi đặt tay lên cánh cửa dẫn lên nhà ga tầng trên."}
             },
             cn = {
                 {"穿过无窗无光一片漆黑的工作人员通道，来到了进入上层车站的门前。"}

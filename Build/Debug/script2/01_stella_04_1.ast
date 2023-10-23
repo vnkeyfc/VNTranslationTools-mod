@@ -1071,7 +1071,7 @@ ast = {
                 {"戻ってきたフィリアが、通信モジュールを指先でつついた。"}
             },
             en = {
-                {"Philia vừa về phòng đã chọc ngoáy cái mô-đun liên lạc."}
+                {"Philia vừa về phòng đã chọc ngoáy cái mô đun liên lạc."}
             },
             cn = {
                 {"回到房间的菲莉娅用指尖戳了戳通信模块。"}
@@ -1602,7 +1602,7 @@ ast = {
                 {"「……＜荷物＞についてはあまり話すなと？」"}
             },
             en = {
-                {"\"... Không nên bàn quá nhiều về <hàng hóa> hả?\""}
+                {"\"... Không nên bàn quá nhiều về 'hàng hóa' hả?\""}
             },
             cn = {
                 {"「……关于“货物”不要说太多的意思吗？」"}

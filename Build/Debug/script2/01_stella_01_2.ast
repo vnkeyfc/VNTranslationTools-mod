@@ -602,7 +602,7 @@ ast = {
                 {"そして部屋の中央に安置された、棺を印象させるカプセル。"}
             },
             en = {
-                {"Và rồi, ngay giữa căn phòng là một viên nang trông như thể một cỗ quan tài."}
+                {"Và rồi, ngay giữa căn phòng là chiếc kén nhộng trông như thể một cỗ quan tài."}
             },
             cn = {
                 {"安放在房间中央的胶囊型设备，不禁使人联想到棺材。"}
@@ -665,7 +665,7 @@ ast = {
                 {"カプセルに満たした特殊溶液を電気制御し、直接物体を生成・出力する。"}
             },
             en = {
-                {"Một viên nang đổ đầy loại dung dịch đặc biệt, vận hành bằng điện nhằm trực tiếp chế xuất ra vật thể."}
+                {"Một kén nhộng đổ đầy loại dung dịch đặc biệt, vận hành bằng điện nhằm trực tiếp chế xuất ra vật thể."}
             },
             cn = {
                 {"通过用电流控制充盈于胶囊中的特殊溶液，直接生成和输出物体。"}
@@ -721,7 +721,7 @@ ast = {
                 {"震える手で、カプセル表面に触れる。"}
             },
             en = {
-                {"Tay run run, tôi khẽ chạm vào bề mặt viên nang."}
+                {"Tay run run, tôi khẽ chạm vào bề mặt kén nhộng."}
             },
             cn = {
                 {"激动颤抖的手触碰着胶囊的表面。"}
@@ -882,7 +882,7 @@ ast = {
                 {"カプセル内から濃緑色の溶液が排水されていく。"}
             },
             en = {
-                {"Thứ dung dịch màu xanh đậm dần rút khỏi viên nang."}
+                {"Thứ dung dịch màu xanh đậm dần rút khỏi chiếc kén."}
             },
             cn = {
                 {"深绿色的溶液从胶囊内排出。"}
@@ -925,7 +925,7 @@ ast = {
                 {"カプセルの天面が、ゆっくりと開いた。"}
             },
             en = {
-                {"Và rồi, phần nắp viên nang từ từ mở ra."}
+                {"Và rồi, phần nắp kén từ từ mở ra."}
             },
             cn = {
                 {"胶囊的顶盖慢慢地打开。"}
@@ -943,7 +943,7 @@ ast = {
                 {"息を呑む。"}
             },
             en = {
-                {"Tôi chợt nín thở."}
+                {"Tôi bất giác nín thở."}
             },
             cn = {
                 {"我倒吸了一口气。"}
@@ -1033,7 +1033,7 @@ ast = {
                 {"愛玩用にしばしば見られる、不自然な誇張がない。"}
             },
             en = {
-                {"Không bợn chút kiểu cách khoa trương nhân tạo thường thấy ở loại người máy dùng làm vật cưng."}
+                {"Không bợn chút kiểu cách phô trương giả tạo thường thấy ở loại người máy dùng làm vật cưng."}
             },
             cn = {
                 {"玩赏用人偶上常见的那些夸张到不自然的部位，一概没有。"}

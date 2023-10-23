@@ -5,14 +5,14 @@ ast = {
         {"msg", no = 99, mode = "novel"},
         {"user", mode = "altthumb", no = 3},
         {"msgoff"},
-        {"savetitle", text = "旅の始まり", en = "Beginning of the Journey", cn = "踏上旅途"},
+        {"savetitle", text = "旅の始まり", en = "Khởi đầu cuộc hành trình", cn = "踏上旅途"},
         {"user", mode = "autosave", no = 3},
         {"eval", exp = "g.chap03=1"},
         {"cgdel", id = -1},
         {"fg", mode = -2},
         {"bg", file = "white", path = ":bg/"},
         {"se", file = "se_eyecatch00", id = 1},
-        {"savetitle", text = "旅の始まり", en = "Beginning of the Journey", cn = "踏上旅途"},
+        {"savetitle", text = "旅の始まり", en = "Khởi đầu cuộc hành trình", cn = "踏上旅途"},
         {"bg", file = "eyecatch_03", movie = 1, path = ":ani/", bx = 960},
         {"ex", movie = 1, func = "wait", time = 0},
         {"ex", time = 4000, func = "wait"},
@@ -3510,7 +3510,7 @@ ast = {
                 {"「ロイドだ。アンドロイドのロイド、こいつでいいだろう」"}
             },
             en = {
-                {"\"Roid. Roid trong <android>. Thế này là được rồi ha?\""}
+                {"\"Roid. Roid trong 'android'. Thế này là được rồi ha?\""}
             },
             cn = {
                 {"「罗伊德。从Ａｎｄｒｏｉｄ（仿生人）中取三个音，这名字不错吧」"}
@@ -4145,7 +4145,7 @@ ast = {
                 {"鋭いな。"}
             },
             en = {
-                {"Sắc sảo ghê."}
+                {"Tinh ý phết."}
             },
             cn = {
                 {"它很敏锐。"}
@@ -4162,7 +4162,7 @@ ast = {
                 {"恐怖症という意味の言葉だ。接尾につく。"}
             },
             en = {
-                {"Đây là một hậu tố, mang nghĩa \"chứng sợ thứ gì đó quá độ.\""}
+                {"Đây là một hậu tố, mang nghĩa \"ghê sợ\"."}
             },
             cn = {
                 {"这个名字的原意是恐惧症，是一个英文后缀。"}
@@ -4179,7 +4179,7 @@ ast = {
                 {"たとえば高所恐怖症ならアクロフォビア。"}
             },
             en = {
-                {"Ví dụ, sợ độ cao là <acrophobia>."}
+                {"Ví dụ, sợ độ cao là \"acrophobia\"."}
             },
             cn = {
                 {"比如恐高症就写作Ａｃｒｏｐｈｏｂｉａ。"}
@@ -4196,7 +4196,7 @@ ast = {
                 {"死を必要以上に恐れる者をタナトスフォビアなどと呼ぶ。"}
             },
             en = {
-                {"Những ai quá khiếp sợ cái chết sẽ được gọi là <thanatophobia>."}
+                {"Những ai quá khiếp sợ cái chết sẽ được gọi là \"thanatophobia\"."}
             },
             cn = {
                 {"过度惧怕死亡的人则被称为死亡恐惧症（Ｔｈａｎａｔｏｓｐｈｏｂｉａ）。"}
@@ -4412,7 +4412,7 @@ ast = {
                 {"「愛する、という意味だ。"}
             },
             en = {
-                {"\"Từ này có nghĩa là [yêu]. "}
+                {"\"Từ này có nghĩa là 'yêu'. "}
             },
             cn = {
                 {"「词的原意是爱意。"}
@@ -4864,7 +4864,7 @@ ast = {
                 {"カプセルのサブタンク内に、衣類や靴のようなものが収まっているのを示す。"}
             },
             en = {
-                {"Trong bể phụ của viên nang, những thứ như quần áo và giày dép bắt đầu lộ ra."}
+                {"Trong bể phụ của kén nhộng, những thứ như quần áo và giày dép bắt đầu lộ ra."}
             },
             cn = {
                 {"我指了指胶囊副箱中收纳着的衣服和鞋等物品。"}
@@ -4984,7 +4984,7 @@ ast = {
                 {"花の髪飾り。"}
             },
             en = {
-                {"Một món trang sức đeo đầu hình bông hoa."}
+                {"Một món trang sức cài đầu hình bông hoa."}
             },
             cn = {
                 {"花型发饰。"}
@@ -5073,7 +5073,7 @@ ast = {
                 {"ちなみにフィリアという言葉は、良い意味ばかりでもない。"}
             },
             en = {
-                {"Tiện đây, cái từ [Philia] không chỉ toàn nghĩa tốt."}
+                {"Tiện đây, cái từ \"Philia\" không chỉ toàn nghĩa tốt."}
             },
             cn = {
                 {"顺便一提，菲莉娅（Ｐｈｉｌｉａ）这个词并不总表示正面的含义。"}
@@ -5090,7 +5090,7 @@ ast = {
                 {"実際は、フォビアと同じ接尾辞からの連想だ。"}
             },
             en = {
-                {"Thực tế, nó cũng được dùng làm hậu tố giống [Phobia]."}
+                {"Thực tế, nó cũng được dùng làm hậu tố giống \"Phobia\"."}
             },
             cn = {
                 {"实际上和Ｐｈｏｂｉａ相同，是来自后缀词的引申。"}
@@ -5124,7 +5124,7 @@ ast = {
                 {"ネクロフィリアとなれば死体愛好家だし、ペドフィリアなんて言葉もある。"}
             },
             en = {
-                {"<Necrophilia> có nghĩa là ái tử thi, rồi còn <pedophilia> nữa."}
+                {"\"Necrophilia\" có nghĩa là ái tử thi, rồi còn \"pedophilia\" nữa."}
             },
             cn = {
                 {"比如Ｎｅｃｒｏｐｈｉｌｉａ的意思就是恋尸癖，更有诸如Ｐｅｄｏｐｈｉｌｉａ这样的词汇。"}
@@ -5315,7 +5315,7 @@ ast = {
                 {"フィリアという名は、むしろフォビアより合っている。"}
             },
             en = {
-                {"Nói như vậy, thì cái tên [Philia] nhiều khi lại hợp với con bé hơn là [Phobia] đấy."}
+                {"Nói như vậy, thì cái tên \"Philia\" nhiều khi lại hợp với con bé hơn là \"Phobia\" đấy."}
             },
             cn = {
                 {"不如说菲莉娅这个名字，要比芙比娅更适合它。"}

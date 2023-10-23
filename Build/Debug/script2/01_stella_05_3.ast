@@ -5,14 +5,14 @@ ast = {
         {"msg", no = 99, mode = "novel"},
         {"user", mode = "altthumb", no = 6},
         {"msgoff"},
-        {"savetitle", text = "生き残るための教育", en = "Education for Survival", cn = "生存教育"},
+        {"savetitle", text = "生き残るための教育", en = "Giáo dục cách sinh tồn", cn = "生存教育"},
         {"user", mode = "autosave", no = 6},
         {"eval", exp = "g.chap06=1"},
         {"cgdel", id = -1},
         {"fg", mode = -2},
         {"bg", file = "white", path = ":bg/"},
         {"se", file = "se_eyecatch00", id = 1},
-        {"savetitle", text = "生き残るための教育", en = "Education for Survival", cn = "生存教育"},
+        {"savetitle", text = "生き残るための教育", en = "Giáo dục cách sinh tồn", cn = "生存教育"},
         {"bg", file = "eyecatch_06", movie = 1, path = ":ani/", bx = 960},
         {"ex", movie = 1, func = "wait", time = 0},
         {"ex", time = 4000, func = "wait"},
@@ -1707,7 +1707,7 @@ ast = {
                 {"心を喪失したような顔のフィリアが見ている前で、俺は食事をとった。"}
             },
             en = {
-                {"Tôi ngồi ăn ngay trước mặt Philia, trong khi biểu cảm của con bé cứ như người vừa mất hẳn sinh khí."}
+                {"Tôi ngồi ăn ngay trước mặt Philia, trong khi nét mặt con bé cứ như người vừa mất hẳn sinh khí."}
             },
             cn = {
                 {"在菲莉娅失魂落魄的脸色陪同下，我吃起了晚餐。"}

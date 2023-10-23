@@ -5,14 +5,14 @@ ast = {
         {"msg", no = 99, mode = "novel"},
         {"user", mode = "altthumb", no = 14},
         {"msgoff"},
-        {"savetitle", text = "救難信号", en = "Distress Signal", cn = "求救信号"},
+        {"savetitle", text = "救難信号", en = "Tín hiệu cứu nạn", cn = "求救信号"},
         {"user", mode = "autosave", no = 14},
         {"eval", exp = "g.chap14=1"},
         {"cgdel", id = -1},
         {"fg", mode = -2},
         {"bg", file = "white", path = ":bg/"},
         {"se", file = "se_eyecatch01", id = 1},
-        {"savetitle", text = "救難信号", en = "Distress Signal", cn = "求救信号"},
+        {"savetitle", text = "救難信号", en = "Tín hiệu cứu nạn", cn = "求救信号"},
         {"bg", file = "eyecatch_14", movie = 1, path = ":ani/", bx = 960},
         {"ex", movie = 1, func = "wait", time = 0},
         {"ex", time = 4000, func = "wait"},
@@ -282,7 +282,7 @@ ast = {
                 {"さらに体温調整や防弾化、情報収集、情報遮断、迷彩などの芸当もこなす。"}
             },
             en = {
-                {"Hơn nữa, nó còn làm được những việc như điều chỉnh thân nhiệt, chống đạn, thu thập dữ liệu, cản trở thông tin, ngụy trang và đủ thử khác."}
+                {"Hơn nữa, nó còn làm được những việc như điều chỉnh thân nhiệt, chống đạn, thu thập dữ liệu, cản trở thông tin, ngụy trang và đủ thứ khác."}
             },
             cn = {
                 {"此外，还具有调节体温、防弹、信息收集、信息屏蔽和迷彩等功能。"}

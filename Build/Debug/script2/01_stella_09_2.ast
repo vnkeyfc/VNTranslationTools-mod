@@ -1597,8 +1597,15 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"０\"][gaiji text=\"１\"][gaiji text=\"２\"][gaiji text=\"３\"].\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="０"},
+					{"gaiji", text="１"},
+					{"gaiji", text="２"},
+					{"gaiji", text="３"},
+					[[."]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -1657,8 +1664,19 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"４\"][gaiji text=\"５\"][gaiji text=\"６\"][gaiji text=\"３\"][gaiji text=\"２\"][gaiji text=\"１\"][gaiji text=\"５\"][gaiji text=\"３\"]!\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="４"},
+					{"gaiji", text="５"},
+					{"gaiji", text="６"},
+					{"gaiji", text="３"},
+					{"gaiji", text="２"},
+					{"gaiji", text="１"},
+					{"gaiji", text="５"},
+					{"gaiji", text="３"},
+					[[!"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -1746,8 +1764,13 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"４\"][gaiji text=\"５\"]!\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="４"},
+					{"gaiji", text="５"},
+					[[!"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -1822,8 +1845,13 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"０\"][gaiji text=\"５\"]!\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="０"},
+					{"gaiji", text="５"},
+					[[!"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -1918,8 +1946,15 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"８\"][gaiji text=\"３\"][gaiji text=\"２\"][gaiji text=\"４\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="８"},
+					{"gaiji", text="３"},
+					{"gaiji", text="２"},
+					{"gaiji", text="４"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -1955,8 +1990,18 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"８\"][gaiji text=\"０\"][gaiji text=\"３\"][gaiji text=\"６\"][gaiji text=\"５\"][gaiji text=\"４\"][gaiji text=\"２\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="８"},
+					{"gaiji", text="０"},
+					{"gaiji", text="３"},
+					{"gaiji", text="６"},
+					{"gaiji", text="５"},
+					{"gaiji", text="４"},
+					{"gaiji", text="２"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -1992,8 +2037,14 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"５\"][gaiji text=\"５\"][gaiji text=\"３\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="５"},
+					{"gaiji", text="５"},
+					{"gaiji", text="３"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -2181,8 +2232,23 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"６\"][gaiji text=\"２\"][gaiji text=\"０\"][gaiji text=\"１\"], 03[gaiji text=\"５\"][gaiji text=\"４\"]、[gaiji text=\"２\"][gaiji text=\"３\"][gaiji text=\"１\"][gaiji text=\"０\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="６"},
+					{"gaiji", text="２"},
+					{"gaiji", text="０"},
+					{"gaiji", text="１"},
+					", 03",
+					{"gaiji", text="５"},
+					{"gaiji", text="４"},
+					"、",
+					{"gaiji", text="２"},
+					{"gaiji", text="３"},
+					{"gaiji", text="１"},
+					{"gaiji", text="０"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -3025,8 +3091,17 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"１\"][gaiji text=\"５\"][gaiji text=\"８\"][gaiji text=\"５\"][gaiji text=\"３\"][gaiji text=\"０\"]\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="１"},
+					{"gaiji", text="５"},
+					{"gaiji", text="８"},
+					{"gaiji", text="５"},
+					{"gaiji", text="３"},
+					{"gaiji", text="０"},
+					[["]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -3157,8 +3232,13 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"１\"][gaiji text=\"０\"]\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="１"},
+					{"gaiji", text="０"},
+					[["]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -3247,8 +3327,15 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"３\"][gaiji text=\"５\"][gaiji text=\"４\"][gaiji text=\"６\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="３"},
+					{"gaiji", text="５"},
+					{"gaiji", text="４"},
+					{"gaiji", text="６"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -3406,8 +3493,17 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"６\"][gaiji text=\"１\"][gaiji text=\"０\"][gaiji text=\"０\"][gaiji text=\"２\"][gaiji text=\"５\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="６"},
+					{"gaiji", text="１"},
+					{"gaiji", text="０"},
+					{"gaiji", text="０"},
+					{"gaiji", text="２"},
+					{"gaiji", text="５"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
@@ -3485,8 +3581,15 @@ ast = {
                 }
             },
             en = {
-                {"\"[gaiji text=\"０\"][gaiji text=\"１\"][gaiji text=\"３\"][gaiji text=\"５\"]?\""}
-            },
+				{
+					[["]],
+					{"gaiji", text="０"},
+					{"gaiji", text="１"},
+					{"gaiji", text="３"},
+					{"gaiji", text="５"},
+					[[?"]],
+				},
+			},
             cn = {
                 {
                     "「",
